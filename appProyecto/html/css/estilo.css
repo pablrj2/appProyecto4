@@ -1,0 +1,98 @@
+﻿body {
+    width:90%;
+	margin:0 auto;
+	font-family:'grundRegular';
+}
+nav ul{
+	list-style:none;
+}
+
+nav ul li{
+	display:block;
+    
+}
+
+.navlink{
+	height:35px;
+	margin-right:10px;
+	font-size:18px;
+	padding-top:12px;
+	color:black;
+	text-decoration:none;
+	float:left;
+
+}
+
+.navlink:hover{/*cambia el boton*/
+	    font-size:14px;
+	    color:#fbe083;	
+}
+
+#contenedor{
+   overflow: hidden;
+   width: 98%;
+   border: 15px ;
+   background-color: #f39600;
+   padding: 10px;
+}
+
+.fondograndient{
+background: rgba(140,59,21,1);
+background: -moz-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(140,59,21,1)), color-stop(49%, rgba(112,72,69,1)), color-stop(100%, rgba(168,150,158,1)));
+background: -webkit-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+background: -o-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+/*background: -ms-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);*/
+background: linear-gradient(to bottom, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3b15', endColorstr='#a8969e', GradientType=0 );
+}
+
+.slider{
+	width:95%;
+	margin:auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding:0;
+	width: 400%;
+	
+	
+	animation: cambio 20s infinite;
+	animation-direction:alternate;
+	animation-timing-function: linear;
+}
+.slider li{
+	width: 100%;
+	list-style:none;
+}
+.slider img{
+	width: 100%
+}
+
+@keyframes cambio{
+	
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+	
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+	
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+footer{
+	position: center;
+	bottom:0px;
+	width:100%;
+	background:#ece9cb;
+	margin-top:0px;
+	margin-bottom:10px;
+    text-align:center;
+	z-index:1000;
+	
+}
