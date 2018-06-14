@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="html\css\estilo2.css" />
+    <Content Include="html\css\estilo3.css" />
     <Content Include="html\registrarse.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
