@@ -47,6 +47,33 @@ background: linear-gradient(to bottom, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 4
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3b15', endColorstr='#a8969e', GradientType=0 );
 }
 
+
+
+div#menu{
+    width:200px;
+    margin-top:50px;
+
+
+}
+div#menu ul{
+    list-style:none;
+
+}
+
+div#menu ul li{
+    margin-top:15px;
+    font-family:Tahoma;
+    font-size:18px;
+    background-color:#e4aa00;
+    width:160px;
+    padding:10px;
+    padding-bottom:10px;
+    border-radius:0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow:5px 0px 10px #e4aa00;
+}
+
+
 footer{
 	position: center;
 	bottom:0px;
