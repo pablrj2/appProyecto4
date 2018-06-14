@@ -96,3 +96,9 @@ footer{
 	z-index:1000;
 	
 }
+
+
+
+th,td{
+	text-align:left;
+}
