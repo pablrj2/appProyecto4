@@ -70,7 +70,16 @@ div#menu ul li{
     padding-bottom:10px;
     border-radius:0px 20px 20px 0px;
     padding-left: 20px;
-    box-shadow:5px 0px 10px #e4aa00;
+    box-shadow:5px 0px 10px #d68200;
+    -webkit-transition: padding-left 0.6s;
+    
+
+}
+
+div#menu ul li:hover{
+    padding-left:50px;
+     color:#fbe083;	
+     font-size:14px;
 }
 
 
