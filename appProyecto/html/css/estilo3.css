@@ -47,7 +47,24 @@ background: linear-gradient(to bottom, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 4
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3b15', endColorstr='#a8969e', GradientType=0 );
 }
 
+#eventos{
+	float:right;
+	width:30%;
+	margin:20px 0px;
+}
 
+#eventos > header{
+	background-color:#ece9cb;
+	color:brown;
+	font-weight:600;
+	/*arriba, izq, abajo, derecha*/
+	margin:0px 10px 3px 0px;
+	font-size:15px;
+}
+
+#eventos > ol{
+	list-style:none;
+}
 
 
 
