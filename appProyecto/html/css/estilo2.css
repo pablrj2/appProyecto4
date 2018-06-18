@@ -94,3 +94,11 @@ footer{
 	z-index:1000;
 	
 }
+
+tr,th{
+	text-align:left;
+}
+
+td{
+    text-align:left;
+}
