@@ -194,6 +194,153 @@ div#menu ul li:hover{
 
 
 
+#tituloMuebles2 {
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+.listaProducto2{
+    margin: 50px auto 0;
+    padding:0;
+    width: 800px;
+    display: flex;
+}
+
+    .listaProducto2 li {
+        list-style: none;
+    }
+
+        .listaProducto2 li .imageProducto2 {
+            width: 400px;
+            height: 295px;
+            box-sizing: border-box;
+            padding: 0 25px;
+        }
+
+           .listaProducto2 li .imageProducto2 figure {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+                .listaProducto2 li .imageProducto2 figure:before, .listaProducto2 li .imageProducto2 figure:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 50%;
+                    background: #f39600;
+                    transition: .5s;
+                }
+
+              .listaProducto2 li .imageProducto2 figure:before {
+                    left: -50%;
+                }
+
+           .listaProducto2 li .imageProducto2:hover figure:before {
+                left: 0;
+            }
+
+            .listaProducto2 li .imageProducto2 figure:after {
+                right: -50%;
+            }
+
+            .listaProducto2 li .imageProducto2:hover figure:after {
+                right: 0;
+            }
+
+            .listaProducto2 li .imageProducto2 figure img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .listaProducto2 li .imageProducto2 figure figcaption {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                bottom: 25px;
+                right: 25px;
+                background: #FFF;
+                text-align: center;
+                padding: 25px;
+                opacity: 0;
+                transition: .5s;
+                transition-delay: .5s;
+                transform: translateY(20px);
+                z-index: 1;
+            }
+
+            .listaProducto2 li .imageProducto2:hover figure figcaption {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .listaProducto2 li .imageProducto2 figure figcaption h2 {
+                margin: 2px;
+                padding: 2px;
+                font-size: 24px;
+                color:#fbe083;
+            }
+
+            .listaProducto2 li .imageProducto2 figcaption p {
+                margin: 12px 0 0;
+                padding: 1px;
+                font-size: 20px;
+            }
+
+
+
+
+.marcoImage2 {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding:22px 10px 22px 2px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    height: 106%;
+    width:94%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*estilo pie de pagina*/
 
