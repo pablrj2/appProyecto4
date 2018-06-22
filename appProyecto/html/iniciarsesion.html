@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ebanisteria los Laureles</title>
-    <link rel="stylesheet" href="css/estilo2.css" />
+    <link rel="stylesheet" href="css/iniciarSecion-estilo.css" />
     <meta charset="utf-8" />
     <link href="imagenes/ebanisteria.jpeg" rel="icon" type="imagenes/ebanisteria.jpeg" />
 </head>
@@ -27,29 +27,29 @@
         
     </header>
 
-    <header>
-    <section id="iniciar">
-        <table>
-            <caption><b>Iniciar Sesion</b></caption>
-            <thead>
-                <tr>
-                    <th>Inserte su Correo</th>
-                    <th colspan="1"><p><input type="text" id="No1"/></p></th>
-                </tr>
-                <tr>
-                    <th>Inserte su Contraseña</th>
-                    <th colspan="1"><p><input type="text" id="No2" /></p></th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td colspan="1"><input type="submit" value="Iniciar Sesion" onclick="location='registrarse.html'" /></td>
-                    <td colspan="1"><input type="submit" value="Registrarse" onclick="location='registrarse.html'"/></td>
-                </tr>
-            </tfoot>
-        </table>
-    </section>
-    </header>
+    <!--marco para registrarse-->
+    <form class="marco">
+        <fieldset>
+            <div>
+                <label>Iniciar secion</label>
+            </div>
+            <div>
+                <label>Inserte su correo</label>
+                <input type='text' value='' id="txtCorreo">
+            </div>
+            <div>
+                <label>Inserte su contraseña</label>
+                <input type='text' value='' id="txtContraseña">
+            </div>
+           
+
+            <div>
+                <input type='reset' value='Ingresar' onclick="Haregistrado()">
+                <!--<input type='reset' value='Cancelar' />-->
+            </div>
+        </fieldset>
+    </form>
+    <!--pie de pagina-->
 
     <footer>
         <p>Nuestra dirección es<address>200 Norte & 200 oeste del colegio Saint Jhon, Desamparados, Alajuela</address></p>

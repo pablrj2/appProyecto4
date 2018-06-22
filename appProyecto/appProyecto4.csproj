@@ -94,8 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="html\css\estilo2.css" />
-    <Content Include="html\css\estilo3.css" />
+    <Content Include="html\css\contactenos-estilo.css" />
+    <Content Include="html\css\iniciarSecion-estilo.css" />
+    <Content Include="html\css\producto-estilo.css" />
+    <Content Include="html\css\acercade-estilo.css" />
+    <Content Include="html\css\registrarse-Estilo.css" />
     <Content Include="html\registrarse.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -111,7 +114,7 @@
   <ItemGroup>
     <Content Include="html\acercade.html" />
     <Content Include="html\contactenos.html" />
-    <Content Include="html\css\estilo.css" />
+    <Content Include="html\css\Index-estilo.css" />
     <Content Include="html\index.html" />
     <Content Include="html\iniciarsesion.html" />
     <Content Include="html\producto.html" />
@@ -122,7 +125,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

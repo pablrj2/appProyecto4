@@ -3,14 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ebanisteria los Laureles</title>
-    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/contactenos-estilo.css" />
     <meta charset="utf-8" />
     <link href="imagenes/ebanisteria.jpeg" rel="icon" type="imagenes/ebanisteria.jpeg" />
 </head>
 <body>
     <header>
         <div>
-            <img src="imagenes/ebanisteria.jpeg" alt="Logo ebanisteria" width="10%" />
+            <img src="imagenes/ebanisteria.jpeg" alt="Logo ebanisteria" width="10" />
             <span id="tituloPrincipal" style="font-size:40px ; color:#777800;">Ebanisteria los Laureles-Contactenos</span>
         </div>
 
@@ -25,6 +25,64 @@
             </nav>
         </section>
     </header>
+
+    <section>
+        <header id="Contactenos">
+            <h1>¡Contáctenos!</h1>
+        </header>
+    </section>
+
+    <form class="marco">
+        <fieldset>
+            <div>
+                <label>Contáctenos vía email</label>
+            </div>
+            <div>
+                <label>Nombre</label>
+                <input type='text' value='' id="txtNombre">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type='text' value='' id="txtEmail">
+            </div>
+            <div>
+                <label>Asunto</label>
+                <input type='text' value='' id="txtAsunto">
+            </div>
+            <div>
+                <label>Mensaje</label>
+                <textarea rows='6' id="txtMensaje"></textarea>
+            </div>
+            <div>
+                <input type='reset' value='Enviar Mensaje' onclick="mensajeEnviado()">
+                <!--<input type='reset' value='Cancelar' />-->
+            </div>
+        </fieldset>
+    </form>
+
+
+    <div id="map"> </div>
+    <script src="https://www.google.com/maps/place/10%C2%B001'29.6%22N+84%C2%B011'24.1%22W/@10.0248855,-84.1922209,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d10.0248855!4d-84.1900322?hl=es" async defer></script>
+    
+
+    <script>
+
+      var map;
+  	 function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 9.947899, lng: -84.290203 },
+          zoom: 16,
+        });
+        var marker = new google.maps.Marker({
+            position: { lat: 9.947899, lng: -84.290203 },
+          map: map,
+
+        });
+      }
+    </script>
+
+
+
     <footer>
         <p>Nuestra dirección es<address>200 Norte & 200 oeste del colegio Saint Jhon, Desamparados, Alajuela</address></p>
         <a href="hacerfacebook.com">-Estamos en Facebook</a>

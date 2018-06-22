@@ -1,0 +1,367 @@
+﻿body {
+    width:90%;
+	margin:0 auto;
+	font-family:'grundRegular';
+}
+nav ul{
+	list-style:none;
+}
+
+nav ul li{
+	display:block;
+    
+}
+
+.navlink{
+	height:35px;
+	margin-right:10px;
+	font-size:18px;
+	padding-top:12px;
+	color:black;
+	text-decoration:none;
+	float:left;
+
+}
+
+.navlink:hover{/*cambia el boton*/
+	    font-size:14px;
+	    color:#fbe083;	
+}
+
+#contenedor{
+   overflow: hidden;
+   width: 98%;
+   border: 15px ;
+   background-color: #f39600;
+   padding: 10px;
+}
+
+.fondograndient{
+background: rgba(140,59,21,1);
+background: -moz-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(140,59,21,1)), color-stop(49%, rgba(112,72,69,1)), color-stop(100%, rgba(168,150,158,1)));
+background: -webkit-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+background: -o-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+/*background: -ms-linear-gradient(top, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);*/
+background: linear-gradient(to bottom, rgba(140,59,21,1) 0%, rgba(112,72,69,1) 49%, rgba(168,150,158,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3b15', endColorstr='#a8969e', GradientType=0 );
+}
+
+
+
+div#menu{
+    width:200px;
+    margin-top:50px;
+
+
+}
+div#menu ul{
+    list-style:none;
+
+}
+
+div#menu ul li{
+    margin-top:15px;
+    font-family:Tahoma;
+    font-size:18px;
+    background-color:#e4aa00;
+    width:160px;
+    padding:10px;
+    padding-bottom:10px;
+    border-radius:0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow:5px 0px 10px #d68200;
+    -webkit-transition: padding-left 0.6s;
+    
+
+}
+
+div#menu ul li:hover{
+    padding-left:50px;
+     color:#fbe083;	
+     font-size:14px;
+}
+/*estilos cuerpo página*/
+
+#tituloMuebles {
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+.listaProducto{
+    margin: 50px auto 0;
+    padding:0;
+    width: 800px;
+    display: flex;
+}
+
+    .listaProducto li {
+        list-style: none;
+    }
+
+        .listaProducto li .imageProducto {
+            width: 400px;
+            height: 295px;
+            box-sizing: border-box;
+            padding: 0 25px;
+        }
+
+           .listaProducto li .imageProducto figure {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+                .listaProducto li .imageProducto figure:before, .listaProducto li .imageProducto figure:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 50%;
+                    background: #f39600;
+                    transition: .5s;
+                }
+
+              .listaProducto li .imageProducto figure:before {
+                    left: -50%;
+                }
+
+           .listaProducto li .imageProducto:hover figure:before {
+                left: 0;
+            }
+
+            .listaProducto li .imageProducto figure:after {
+                right: -50%;
+            }
+
+            .listaProducto li .imageProducto:hover figure:after {
+                right: 0;
+            }
+
+            .listaProducto li .imageProducto figure img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .listaProducto li .imageProducto figure figcaption {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                bottom: 25px;
+                right: 25px;
+                background: #FFF;
+                text-align: center;
+                padding: 25px;
+                opacity: 0;
+                transition: .5s;
+                transition-delay: .5s;
+                transform: translateY(20px);
+                z-index: 1;
+            }
+
+            .listaProducto li .imageProducto:hover figure figcaption {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .listaProducto li .imageProducto figure figcaption h2 {
+                margin: 2px;
+                padding: 2px;
+                font-size: 24px;
+                color:#fbe083;
+            }
+
+            .listaProducto li .imageProducto figcaption p {
+                margin: 12px 0 0;
+                padding: 1px;
+                font-size: 20px;
+            }
+
+
+
+
+.marcoImage {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding:22px 10px 22px 2px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    height: 106%;
+    width:94%;
+    float: left;
+}
+
+
+
+#tituloMuebles2 {
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+.listaProducto2{
+    margin: 50px auto 0;
+    padding:0;
+    width: 800px;
+    display: flex;
+}
+
+    .listaProducto2 li {
+        list-style: none;
+    }
+
+        .listaProducto2 li .imageProducto2 {
+            width: 400px;
+            height: 295px;
+            box-sizing: border-box;
+            padding: 0 25px;
+        }
+
+           .listaProducto2 li .imageProducto2 figure {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+                .listaProducto2 li .imageProducto2 figure:before, .listaProducto2 li .imageProducto2 figure:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 50%;
+                    background: #f39600;
+                    transition: .5s;
+                }
+
+              .listaProducto2 li .imageProducto2 figure:before {
+                    left: -50%;
+                }
+
+           .listaProducto2 li .imageProducto2:hover figure:before {
+                left: 0;
+            }
+
+            .listaProducto2 li .imageProducto2 figure:after {
+                right: -50%;
+            }
+
+            .listaProducto2 li .imageProducto2:hover figure:after {
+                right: 0;
+            }
+
+            .listaProducto2 li .imageProducto2 figure img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .listaProducto2 li .imageProducto2 figure figcaption {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                bottom: 25px;
+                right: 25px;
+                background: #FFF;
+                text-align: center;
+                padding: 25px;
+                opacity: 0;
+                transition: .5s;
+                transition-delay: .5s;
+                transform: translateY(20px);
+                z-index: 1;
+            }
+
+            .listaProducto2 li .imageProducto2:hover figure figcaption {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .listaProducto2 li .imageProducto2 figure figcaption h2 {
+                margin: 2px;
+                padding: 2px;
+                font-size: 24px;
+                color:#fbe083;
+            }
+
+            .listaProducto2 li .imageProducto2 figcaption p {
+                margin: 12px 0 0;
+                padding: 1px;
+                font-size: 20px;
+            }
+
+
+
+
+.marcoImage2 {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding:22px 10px 22px 2px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    height: 106%;
+    width:94%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilo pie de pagina*/
+
+
+footer{
+    position: center;
+    margin-top:0px;
+	margin-bottom:10px;
+    height:200px;
+    float: left;
+    width: 100%;
+    background:#ece9cb;
+    text-align:center;
+	z-index:1000;
+	
+}
+
+tr,th{
+	text-align:left;
+}
+
+td{
+    text-align:left;
+}
