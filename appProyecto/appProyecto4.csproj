@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="html\css\contactenos-estilo.css" />
+    <Content Include="html\css\iniciarSecion-estilo.css" />
     <Content Include="html\css\producto-estilo.css" />
     <Content Include="html\css\acercade-estilo.css" />
     <Content Include="html\css\registrarse-Estilo.css" />
