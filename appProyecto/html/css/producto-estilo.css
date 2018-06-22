@@ -119,11 +119,11 @@ div#menu ul li:hover{
                     top: 0;
                     height: 100%;
                     width: 50%;
-                    background: #F0895D;
+                    background: #f39600;
                     transition: .5s;
                 }
 
-              .listaProducto li .imageEvento figure:before {
+              .listaProducto li .imageProducto figure:before {
                     left: -50%;
                 }
 
@@ -144,7 +144,7 @@ div#menu ul li:hover{
                 height: 100%;
             }
 
-            .listaProductoli .imageProducto figure figcaption {
+            .listaProducto li .imageProducto figure figcaption {
                 position: absolute;
                 top: 25px;
                 left: 25px;
@@ -169,7 +169,7 @@ div#menu ul li:hover{
                 margin: 2px;
                 padding: 2px;
                 font-size: 24px;
-                color:#F05C1F;
+                color:#fbe083;
             }
 
             .listaProducto li .imageProducto figcaption p {
@@ -195,21 +195,17 @@ div#menu ul li:hover{
 
 
 
-
-
-
-
-
-
+/*estilo pie de pagina*/
 
 
 footer{
-	position: center;
-	bottom:0px;
-	width:100%;
-	background:#ece9cb;
-	margin-top:0px;
+    position: center;
+    margin-top:0px;
 	margin-bottom:10px;
+    height:200px;
+    float: left;
+    width: 100%;
+    background:#ece9cb;
     text-align:center;
 	z-index:1000;
 	
