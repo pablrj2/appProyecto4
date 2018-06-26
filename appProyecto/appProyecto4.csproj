@@ -96,9 +96,11 @@
   <ItemGroup>
     <Content Include="html\css\contactenos-estilo.css" />
     <Content Include="html\css\iniciarSecion-estilo.css" />
+    <Content Include="html\css\listaProduc.css" />
     <Content Include="html\css\producto-estilo.css" />
     <Content Include="html\css\acercade-estilo.css" />
     <Content Include="html\css\registrarse-Estilo.css" />
+    <Content Include="html\listaproductos.html" />
     <Content Include="html\registrarse.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
