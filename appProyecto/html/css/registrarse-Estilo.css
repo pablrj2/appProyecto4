@@ -58,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c3b15', end
 /*formulario estilos*/
 .marco{
     border: 1px solid #CED5D7;
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 35px 35px 10px;
     margin-top: 50px;
     margin-left:15%;
