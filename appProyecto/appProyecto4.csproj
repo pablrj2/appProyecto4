@@ -132,6 +132,7 @@
     <Content Include="html\img\ebanisteria2.jpeg" />
     <Content Include="html\img\ebanisteria3.jpeg" />
     <Content Include="html\img\ebanisteria4.jpeg" />
+    <Content Include="html\img\logomadera.jpg" />
     <Content Include="html\img\puertas\puerta1.jpg" />
     <Content Include="html\img\puertas\puerta2.jpg" />
     <Content Include="html\img\puertas\puerta3.jpg" />
@@ -141,6 +142,8 @@
     <Content Include="html\img\puertas\puerta7.png" />
     <Content Include="html\img\puertas\puerta8.jpg" />
     <Content Include="html\img\puertas\puerta9.JPG" />
+    <Content Include="html\img\trabajo.jpg" />
+    <Content Include="html\img\trabajo3.jpg" />
     <Content Include="html\listaPuertas.html" />
     <Content Include="html\listaClosets.html" />
     <Content Include="html\registrarse.html" />
