@@ -46,11 +46,10 @@
   </div>
 </nav>
      <!--marco para registrarse-->
+    <h1> Iniciar sesión</h1>
     <form class="marco">
         <fieldset>
-            <div>
-                <label>Iniciar secion</label>
-            </div>
+            
             <div>
                 <label>Inserte su correo</label>
                 <input type='text' value='' id="txtCorreo">
@@ -66,7 +65,7 @@
                 <!--<input type='reset' value='Cancelar' />-->
             </div>
         </fieldset>
-    </form>
+    </form></br>
     <!--pie de pagina-->
 
     <footer>

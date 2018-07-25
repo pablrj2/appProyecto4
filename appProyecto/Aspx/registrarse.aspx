@@ -47,11 +47,14 @@
 </nav>
 
     <!--marco para registrarse-->
+    <section>
+        <header id="Contactenos">
+            <h1>Registrarse</h1>
+        </header>
+    </section>
         <form class="marco">
             <fieldset>
-                <div>
-                    <label>Registrarse</label>
-                </div>
+                
                 <div>
                     <label>Correo</label>
                     <input type='text' value='' id="txtCorreo">
