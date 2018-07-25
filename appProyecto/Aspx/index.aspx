@@ -9,6 +9,8 @@
     <script src="../scripts/bootstrap.min.js"></script>
     <script src="../scripts/jquery-3.0.0.min.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+
     <link href="../html/css/Index-estilo.css" rel="stylesheet" />
     
 </head>
