@@ -58,7 +58,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="../html/img/ebanisteria1.jpeg" alt="First slide">
+            <img class="first-slide" src="../html/img/ebanisteria3.jpeg" alt="First slide" width="100%">
             <div class="container">
               <div class="carousel-caption text-left">
                 
@@ -66,14 +66,14 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="../html/img/ebanisteria2.jpeg" alt="Second slide">
+            <img class="second-slide" src="../html/img/ebanisteria2.jpeg" alt="Second slide" width="100%">
             <div class="container">
               <div class="carousel-caption">             
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="../html/img/ebanisteria3.jpeg"" alt="Third slide">
+            <img class="third-slide" src="../html/img/ebanisteria3.jpeg"" alt="Third slide"width="100%">
             <div class="container">
               <div class="carousel-caption text-right">
               </div>

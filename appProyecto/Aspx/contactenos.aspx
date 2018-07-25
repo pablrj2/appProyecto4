@@ -11,22 +11,23 @@
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="../html/css/contactenos-estilo.css" />
 </head>
+
 <body>
-     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="#">Ebanisteria los Laureles</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
- <div class="collapse navbar-collapse" id="navbarColor01">
+  <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
+      <li class="nav-item active">
         <a class="nav-link" href="index.aspx">Inicio<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item ">
+      <li class="nav-item">
         <a class="nav-link" href="producto.aspx">Productos</a>
       </li>
-      <li class="nav-item  active">
+      <li class="nav-item">
         <a class="nav-link" href="contactenos.aspx">Contactenos</a>
       </li>
       <li class="nav-item">
@@ -44,7 +45,6 @@
     
   </div>
 </nav>
-
 
 
     <section>
@@ -86,21 +86,7 @@
     <script src="https://www.google.com/maps/place/10%C2%B001'29.6%22N+84%C2%B011'24.1%22W/@10.0248855,-84.1922209,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d10.0248855!4d-84.1900322?hl=es" async defer></script>
     
 
-    <script>
-
-      var map;
-  	 function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: { lat: 9.947899, lng: -84.290203 },
-          zoom: 16,
-        });
-        var marker = new google.maps.Marker({
-            position: { lat: 9.947899, lng: -84.290203 },
-          map: map,
-
-        });
-      }
-    </script>
+   </br>
 
 
 
