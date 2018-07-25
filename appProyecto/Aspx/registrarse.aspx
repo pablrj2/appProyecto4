@@ -52,9 +52,26 @@
             <h1>Registrarse</h1>
         </header>
     </section>
-        <form class="marco">
+        <form >
             <fieldset>
                 
+                <div>
+                    <label>Identificacion</label>
+                    <input type='text' value='' id="txtIdentificacion">
+                </div>
+                <div>
+                    <label>Nombre Completo</label>
+                    <input type='text' value='' id="txtNombreCompleto">
+                </div>
+                <div>
+                    <label>Pais</label>
+                    <SELECT NAME="selCombo" SIZE=1"> 
+                    <OPTION VALUE="1">Costa Rica</OPTION>
+                    <OPTION VALUE="2">USA</OPTION>
+                    <OPTION VALUE="3">Panama</OPTION>
+                    <OPTION VALUE="4">Mexico</OPTION> 
+                    </SELECT>
+                </div>
                 <div>
                     <label>Correo</label>
                     <input type='text' value='' id="txtCorreo">
@@ -62,10 +79,6 @@
                 <div>
                     <label>Contraseña</label>
                     <input type='text' value='' id="txtContraseña">
-                </div>
-                <div>
-                    <label>Repita la contraseña</label>
-                    <input type='text' value='' id="txtContraseña2">
                 </div>
                
                 <div>
