@@ -310,6 +310,9 @@
     <Compile Include="Aspx\registrarse.aspx.designer.cs">
       <DependentUpon>registrarse.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BD\Database.cs" />
+    <Compile Include="BD\DatabaseFactory.cs" />
+    <Compile Include="BD\Registrar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

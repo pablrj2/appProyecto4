@@ -52,40 +52,37 @@
             <h1>Registrarse</h1>
         </header>
     </section>
-        <form >
+        <form id="form1" runat="server" >
+            <div class="col-lg-6">
             <fieldset>
                 
                 <div>
                     <label>Identificacion</label>
-                    <input type='text' value='' id="txtIdentificacion">
+                    <input class="form-control" id="identificacion" placeholder="Identificacion" type="text" runat="server"  />
                 </div>
                 <div>
                     <label>Nombre Completo</label>
-                    <input type='text' value='' id="txtNombreCompleto">
+                    <input class="form-control" id="nombre" placeholder="Nombre" type="text" runat="server"  />
                 </div>
                 <div>
                     <label>Pais</label>
-                    <SELECT NAME="selCombo" SIZE=1"> 
-                    <OPTION VALUE="1">Costa Rica</OPTION>
-                    <OPTION VALUE="2">USA</OPTION>
-                    <OPTION VALUE="3">Panama</OPTION>
-                    <OPTION VALUE="4">Mexico</OPTION> 
-                    </SELECT>
+                 <input class="form-control" id="pais" placeholder="Pais" type="text" runat="server"  />
                 </div>
                 <div>
                     <label>Correo</label>
-                    <input type='text' value='' id="txtCorreo">
+                    <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server"  />
                 </div>
                 <div>
                     <label>Contraseña</label>
-                    <input type='text' value='' id="txtContraseña">
+                    <input class="form-control" id="contraseña" placeholder="Contraseña" type="text" runat="server"  />
                 </div>
                
-                <div>
-                    <input type='reset' value='Registrarse' onclick="Haregistrado()">
+                
+                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" class="btn btn-primary" OnClick="btnRegistrar_Click" />
                     <!--<input type='reset' value='Cancelar' />-->
-                </div>
+              
             </fieldset>
+        </div>
         </form>
 
 <!--pie de pagina-->
