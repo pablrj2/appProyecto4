@@ -102,19 +102,19 @@
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="../html/img/logomadera.jpg" alt="logomadera" width="140" height="140"/>
-            <h2>Calidad</h2>
+            <h3>Calidad</h3>
             <p>Contamos con madera de la mejor calidad en una gran varia de tipos.</p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
             <img class="rounded-circle" src="../html/img/trabajo.jpg" alt="Generic placeholder image" width="140" height="140"/>
-            <h2>Trabajo</h2>
+            <h3>Trabajo</h3>
             <p>Nuestros productos son realizados con arduo trabajo, dedicación y perseverancia.</p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
             <img class="rounded-circle" src="../html/img/trabajo3.jpg" alt="Generic placeholder image" width="140" height="140"/>
-            <h2>Productos</h2>
+            <h3>Productos</h3>
             <p>Contamos con productos de calidad, con precios competitivos en el mercado y hechos completamente a mano. </p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
@@ -126,7 +126,11 @@
       <!--pie de pagina-->
     <footer>
         <p>Nuestra dirección es<address>200 Norte & 200 oeste del colegio Saint Jhon, Desamparados, Alajuela</address></p>
-        <a href="hacerfacebook.com">-Estamos en Facebook</a>
+        <p>
+                    <a href="https://www.facebook.com/Spinetek-IT-Group-166636690864866/?modal=admin_todo_tour">
+                        <img src="../html/img/facebook_32.png" width="32" height="32" alt="facebook icon" />
+                    </a>
+                </p>
         <a href="mailto:any.sanabria.h28@gmail.com?Subject=Contacto">-Contactenos-</a>
         <details>
             <summary>Copyright &copy; 2018 <a href="http://www.cafeCR.com">Ebanisteria_Laureles</a></summary>

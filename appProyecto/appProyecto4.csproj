@@ -101,7 +101,9 @@
     <Content Include="Aspx\index.aspx" />
     <Content Include="Aspx\iniciarsesion.aspx" />
     <Content Include="Aspx\listaClosets.aspx" />
+    <Content Include="Aspx\listamesasCentro.aspx" />
     <Content Include="Aspx\listaPuertas.aspx" />
+    <Content Include="Aspx\listaRodaPie.aspx" />
     <Content Include="Aspx\producto.aspx" />
     <Content Include="Aspx\registrarse.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -132,7 +134,18 @@
     <Content Include="html\img\ebanisteria2.jpeg" />
     <Content Include="html\img\ebanisteria3.jpeg" />
     <Content Include="html\img\ebanisteria4.jpeg" />
+    <Content Include="html\img\facebook_32.png" />
     <Content Include="html\img\logomadera.jpg" />
+    <Content Include="html\img\mesacentro\mesa10.jpg" />
+    <Content Include="html\img\mesacentro\mesa12.jpg" />
+    <Content Include="html\img\mesacentro\mesa2.jpg" />
+    <Content Include="html\img\mesacentro\mesa3.jpg" />
+    <Content Include="html\img\mesacentro\mesa4.jpg" />
+    <Content Include="html\img\mesacentro\mesa5.jpg" />
+    <Content Include="html\img\mesacentro\mesa6.jpg" />
+    <Content Include="html\img\mesacentro\mesa7.jpg" />
+    <Content Include="html\img\mesacentro\mesa8.jpg" />
+    <Content Include="html\img\mesacentro\mesa9.jpg" />
     <Content Include="html\img\puertas\puerta1.jpg" />
     <Content Include="html\img\puertas\puerta2.jpg" />
     <Content Include="html\img\puertas\puerta3.jpg" />
@@ -142,6 +155,15 @@
     <Content Include="html\img\puertas\puerta7.png" />
     <Content Include="html\img\puertas\puerta8.jpg" />
     <Content Include="html\img\puertas\puerta9.JPG" />
+    <Content Include="html\img\rodapies\rodapi2.jpg" />
+    <Content Include="html\img\rodapies\rodapie1.jpg" />
+    <Content Include="html\img\rodapies\rodapie3.jpg" />
+    <Content Include="html\img\rodapies\rodapie4.jpg" />
+    <Content Include="html\img\rodapies\rodapie5.jpg" />
+    <Content Include="html\img\rodapies\rodapie6.jpg" />
+    <Content Include="html\img\rodapies\rodapie7.jpg" />
+    <Content Include="html\img\rodapies\rodapie8.jpg" />
+    <Content Include="html\img\rodapies\rodapie9.jpg" />
     <Content Include="html\img\trabajo.jpg" />
     <Content Include="html\img\trabajo3.jpg" />
     <Content Include="html\listaPuertas.html" />
@@ -253,12 +275,26 @@
     <Compile Include="Aspx\listaClosets.aspx.designer.cs">
       <DependentUpon>listaClosets.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aspx\listamesasCentro.aspx.cs">
+      <DependentUpon>listamesasCentro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspx\listamesasCentro.aspx.designer.cs">
+      <DependentUpon>listamesasCentro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Aspx\listaPuertas.aspx.cs">
       <DependentUpon>listaPuertas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Aspx\listaPuertas.aspx.designer.cs">
       <DependentUpon>listaPuertas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspx\listaRodaPie.aspx.cs">
+      <DependentUpon>listaRodaPie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspx\listaRodaPie.aspx.designer.cs">
+      <DependentUpon>listaRodaPie.aspx</DependentUpon>
     </Compile>
     <Compile Include="Aspx\producto.aspx.cs">
       <DependentUpon>producto.aspx</DependentUpon>

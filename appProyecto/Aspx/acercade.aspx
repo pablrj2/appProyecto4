@@ -50,10 +50,10 @@
                         </ul>
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="iniciarsesion.aspx" target="_blank"  >Iniciar Sesion</a>
+              <a class="nav-link" href="iniciarsesion.aspx" >Iniciar Sesion</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-outline-primary" href="registrarse.aspx" >Registrarse</a>
+              <a class="nav-link" href="registrarse.aspx" >Registrarse</a>
             </li>
           </ul>
                        
