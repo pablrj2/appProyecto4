@@ -101,6 +101,7 @@
     <Content Include="Aspx\index.aspx" />
     <Content Include="Aspx\iniciarsesion.aspx" />
     <Content Include="Aspx\listaClosets.aspx" />
+    <Content Include="Aspx\listacomodas.aspx" />
     <Content Include="Aspx\listamesasCentro.aspx" />
     <Content Include="Aspx\listaPuertas.aspx" />
     <Content Include="Aspx\listaRodaPie.aspx" />
@@ -129,6 +130,15 @@
     <Content Include="html\img\closets\closet7.jpg" />
     <Content Include="html\img\closets\closet8.jpg" />
     <Content Include="html\img\closets\closet9.jpg" />
+    <Content Include="html\img\comodas\comoda1.jpg" />
+    <Content Include="html\img\comodas\comoda2.jpg" />
+    <Content Include="html\img\comodas\comoda3.jpg" />
+    <Content Include="html\img\comodas\comoda4.jpg" />
+    <Content Include="html\img\comodas\comoda5.jpg" />
+    <Content Include="html\img\comodas\comoda6.jpg" />
+    <Content Include="html\img\comodas\comoda7.jpg" />
+    <Content Include="html\img\comodas\comoda8.jpg" />
+    <Content Include="html\img\comodas\comoda9.jpeg" />
     <Content Include="html\img\ebanisteria.jpeg" />
     <Content Include="html\img\ebanisteria1.jpeg" />
     <Content Include="html\img\ebanisteria2.jpeg" />
@@ -274,6 +284,13 @@
     </Compile>
     <Compile Include="Aspx\listaClosets.aspx.designer.cs">
       <DependentUpon>listaClosets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspx\listacomodas.aspx.cs">
+      <DependentUpon>listacomodas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspx\listacomodas.aspx.designer.cs">
+      <DependentUpon>listacomodas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Aspx\listamesasCentro.aspx.cs">
       <DependentUpon>listamesasCentro.aspx</DependentUpon>

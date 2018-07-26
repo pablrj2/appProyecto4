@@ -49,27 +49,22 @@
 
     <section>
         <header id="Contactenos">
-            <h1>¡Contáctenos!</h1>
+            <h1>Contactenos</h1>
         </header>
     </section>
-
-    <form class="marco">
-        <fieldset>
+     <form id="form1" runat="server" >
+            <div class="col-lg-6">
+            <fieldset>
+            
+             <div>
+                    <label>Nombre Completo</label>
+                    <input class="form-control" id="nombre" placeholder="Nombre" type="text" runat="server"  />
+                </div>
             <div>
-                <label>Contáctenos vía email</label>
-            </div>
-            <div>
-                <label>Nombre</label>
-                <input type='text' value='' id="txtNombre">
-            </div>
-            <div>
-                <label>Email</label>
-                <input type='text' value='' id="txtEmail">
-            </div>
-            <div>
-                <label>Asunto</label>
-                <input type='text' value='' id="txtAsunto">
-            </div>
+                    <label>Correo</label>
+                    <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server"  />
+                </div>
+            
             <div>
                 <label>Mensaje</label>
                 <textarea rows='6' id="txtMensaje"></textarea>
@@ -78,7 +73,9 @@
                 <input type='reset' value='Enviar Mensaje' onclick="mensajeEnviado()">
                 <!--<input type='reset' value='Cancelar' />-->
             </div>
+                
         </fieldset>
+                </div>
     </form>
 
 
