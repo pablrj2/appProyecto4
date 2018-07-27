@@ -79,7 +79,7 @@
     <!-- Footer -->
 <footer class="">
     <!-- Footer Links -->
-    <div class="container ">
+
       <!-- Footer links -->
       <div class="">
         <!-- Grid column -->
@@ -93,19 +93,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h3 >Productos</h3>
           <p>
-            <a href="#!">Puertas</a>
+            <a href="../Aspx/listaPuertas.aspx">Puertas</a>
           </p>
           <p>
-            <a href="#!">Closets</a>
+            <a href="../Aspx/listaClosets.aspx">Closets</a>
           </p>
           <p>
-            <a href="#!">Comodas</a>
+            <a href="../Aspx/listaClosets.aspx">Comodas</a>
           </p>
           <p>
-            <a href="#!">Roda Pie</a>
+            <a href="../Aspx/listaRodaPie.aspx">Roda Pie</a>
           </p>
           <p>
-            <a href="#!">Mesa de Centro</a>
+            <a href="../Aspx/listamesasCentro.aspx">Mesa de Centro</a>
           </p>
         </div>
        

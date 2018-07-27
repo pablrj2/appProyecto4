@@ -1,1 +1,11 @@
-﻿
+﻿footer {
+    position: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 200px;
+    float: left;
+    width: 100%;
+    background: #ece9cb;
+    text-align: center;
+    z-index: 1000;
+}  
