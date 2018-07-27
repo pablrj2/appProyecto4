@@ -17,21 +17,21 @@
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Ebanisteria los Laureles</a>
+      <a class="navbar-brand">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="#">Inicio</a></li>
+      <li ><a href="../Aspx/index.aspx">Inicio</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Puertas</a></li>
-          <li><a href="#">Closets</a></li>
-          <li><a href="#">Comodas</a></li>
-          <li><a href="#">Roda pie</a></li>
-          <li><a href="#">Mesa de centro</a></li>
+          <li><a href="../Aspx/listaPuertas.aspx">Puertas</a></li>
+          <li><a href="../Aspx/listaClosets.aspx">Closets</a></li>
+          <li><a href="../Aspx/listacomodas.aspx">Comodas</a></li>
+          <li><a href="../Aspx/listaRodaPie.aspx">Roda pie</a></li>
+          <li><a href="../Aspx/listamesasCentro.aspx">Mesa de centro</a></li>
         </ul>
       </li>
-      <li><a href="#">Contactenos</a></li>
-      <li class="active"><a href="#">Acercade..</a></li>
+      <li><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
+      <li class="active"><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -56,7 +56,7 @@
         </li>
       </ul>
        <ul class="nav navbar-nav navbar-right">
-           <li><a href="#">Registrarse</a></li>
+           <li><a href="../Aspx/registrarse.aspx">Registrarse</a></li>
        </ul>
   </div>
 </nav>
