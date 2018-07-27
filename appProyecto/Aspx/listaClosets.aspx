@@ -153,7 +153,11 @@
     <!--Lista ordenada-->
     <footer>
         <p>Nuestra dirección es<address>200 Norte & 200 oeste del colegio Saint Jhon, Desamparados, Alajuela</address></p>
-        <a href="hacerfacebook.com">-Estamos en Facebook</a>
+       <p>
+                    <a href="https://www.facebook.com/Spinetek-IT-Group-166636690864866/?modal=admin_todo_tour">
+                        <img src="../html/img/facebook_32.png" width="32" height="32" alt="facebook icon" />
+                    </a>
+                </p>
         <a href="any.sanabria.h28@gmail.com=Contacto">-Contactenos-</a>
         <details>
             <summary>Copyright &copy; 2018 <a href="http://www.cafeCR.com">Ebanisteria_Laureles</a></summary>

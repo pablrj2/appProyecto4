@@ -50,102 +50,119 @@
         <h1>Nuestros productos</h1>
     </section>
     <main>
-        <section>
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta1.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+       <div class="album py-5 bg-light">
+        <div class="container">
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta2.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Puerta color blanco</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta3.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta7.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta8.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="../html/img/puertas/puerta9.jpg"alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center"> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta4.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta5.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta6.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta7.png" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta8.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta9.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
     </main>
-
 
 
     <!--Lista ordenada-->

@@ -75,7 +75,7 @@
                 <div>
                     <label>Contraseña</label>
                     <input class="form-control" id="contraseña" placeholder="Contraseña" type="text" runat="server"  />
-                </div>
+                </div></br>
                
                 
                 <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" class="btn btn-primary" OnClick="btnRegistrar_Click" />
