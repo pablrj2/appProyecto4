@@ -11,16 +11,10 @@ namespace appProyecto.Aspx
 {
     public partial class registrarse : System.Web.UI.Page
     {
-        /*protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-        
-            if (!IsPostBack)
-            {
-                RepeaterProductos.DataSource =
-                    Registrar.SeleccionarTodos();
-                RepeaterProductos.DataBind();
-            }
-        }*/
+
+        }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
@@ -33,5 +27,8 @@ namespace appProyecto.Aspx
             Registrar.Insertar(cat);
             Response.Redirect("registrarse.aspx");
         }
+        
+
+
     }
-    }
+}

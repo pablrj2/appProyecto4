@@ -15,14 +15,14 @@
 </head>
 <body>
 
- <nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="../Aspx/index.aspx">Inicio</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
+      <li  class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="../Aspx/listaPuertas.aspx">Puertas</a></li>
           <li><a href="../Aspx/listaClosets.aspx">Closets</a></li>
@@ -32,7 +32,7 @@
         </ul>
       </li>
       <li><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
-      <li class="active"><a href="../Aspx/acercade.aspx">Acercade..</a></li>
+      <li ><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -41,11 +41,11 @@
             <form id="formLogin" class="form container-fluid">
               <div class="form-group">
                 <label for="usr">Correo:</label>
-                <input type="text" class="form-control" id="usr">
+                <input type="text" class="form-control" id="usr"/>
               </div>
               <div class="form-group">
                 <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input type="password" class="form-control" id="pwd"/>
               </div>
               <button type="button" id="btnLogin" class="btn btn-block">Login</button>
             </form>
@@ -202,11 +202,11 @@
       
     
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h3>Contact</h3>
+          <h3>Contacto</h3>
           <p>
             <i class="fa fa-home mr-3"></i> Alajuela, Desamparados, CR</p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> putoelquelolea@gmail.com</p>
+            <i class="fa fa-envelope mr-3"></i> venta@ebanistenialoslaureles.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>

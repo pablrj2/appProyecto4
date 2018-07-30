@@ -27,18 +27,18 @@ namespace appProyecto.BD
             return ds;
         }
 
-        public static void Insertar(Registrar cat)
+        public static void Insertar(Registrar registrarce)
         {
             Database db = DatabaseFactory.CreateDatabase("Default");
             using (SqlCommand cmd = new SqlCommand("INSERT INTO Usuario (correo,identificacion,contraseña,nombre,pais,tipoUsuario,categoria) VALUES (@correo,@identificacion,@contraseña,@nombre,@pais,@tipoUsuario,@categoria)"))
             {
-                cmd.Parameters.AddWithValue("@nombre", cat.nombre);
-                cmd.Parameters.AddWithValue("@identificacion", cat.identificacion);
-                cmd.Parameters.AddWithValue("@correo", cat.correo);
-                cmd.Parameters.AddWithValue("@contraseña", cat.contraseña);
-                cmd.Parameters.AddWithValue("@pais", cat.pais);
-                cmd.Parameters.AddWithValue("@tipoUsuario", null);
-                cmd.Parameters.AddWithValue("@categoria", null);
+                cmd.Parameters.AddWithValue("@nombre", registrarce.nombre);
+                cmd.Parameters.AddWithValue("@identificacion", registrarce.identificacion);
+                cmd.Parameters.AddWithValue("@correo", registrarce.correo);
+                cmd.Parameters.AddWithValue("@contraseña", registrarce.contraseña);
+                cmd.Parameters.AddWithValue("@pais", registrarce.pais);
+                cmd.Parameters.AddWithValue("@tipoUsuario", 0);
+                cmd.Parameters.AddWithValue("@categoria", 0);
                 db.ExecuteNonQuery(cmd);
             }
         }

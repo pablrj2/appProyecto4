@@ -69,28 +69,24 @@
     </section>
      <form id="form1" runat="server" >
             <div class="col-lg-6">
-            <fieldset>
-            
-             <div>
-                    <label>Nombre Completo</label>
-                    <input class="form-control" id="nombre" placeholder="Nombre" type="text" runat="server"  />
-                </div>
+            <fieldset>           
             <div>
-                    <label>Correo</label>
-                    <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server"  />
-                </div>
-            
+                 <label>Nombre Completo</label>
+                 <input class="form-control" id="nombre2" placeholder="Nombre" type="text" runat="server" required="required"/>
+            </div>
+            <div>
+                 <label>Correo</label>
+                 <input class="form-control" id="correo2" placeholder="Correo" type="email" runat="server"  required="required"/>
+            </div>
             <div>
                 <label>Mensaje</label>
-                <input class="form-control" id="mensaje" placeholder="mensaje" type="text" runat="server"  />
+                <textarea class="form-control" id="mensaje2" placeholder="Mensaje"  runat="server" required="required"></textarea> 
             </div>
             <div>
-                <input type='reset' value='Enviar Mensaje' onclick="mensajeEnviado()">
-                <!--<input type='reset' value='Cancelar' />-->
-            </div>
-                
-        </fieldset>
-                </div>
+                <asp:Button ID="btnContacto" runat="server" Text="Contacto" />
+            </div>              
+          </fieldset>
+       </div>
     </form>
 
 
@@ -105,7 +101,7 @@
   <!-- Footer -->
 <footer class="">
     <!-- Footer Links -->
-    <div class="container ">
+    
       <!-- Footer links -->
       <div class="">
         <!-- Grid column -->
@@ -138,11 +134,11 @@
       
     
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h3>Contact</h3>
+          <h3>Contacto</h3>
           <p>
             <i class="fa fa-home mr-3"></i> Alajuela, Desamparados, CR</p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> putoelquelolea@gmail.com</p>
+            <i class="fa fa-envelope mr-3"></i> venta@ebanistenialoslaureles.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>

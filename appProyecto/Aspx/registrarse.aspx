@@ -73,27 +73,27 @@
                 
                 <div>
                     <label>Identificacion</label>
-                    <input class="form-control" id="identificacion" placeholder="Identificacion" type="text" runat="server"  />
+                    <input class="form-control" id="identificacion" placeholder="Identificacion" type="text" runat="server" required="required"  />
                 </div>
                 <div>
                     <label>Nombre Completo</label>
-                    <input class="form-control" id="nombre" placeholder="Nombre" type="text" runat="server"  />
+                    <input class="form-control" id="nombre" placeholder="Nombre" type="text" runat="server"  required="required" />
                 </div>
                 <div>
                     <label>Pais</label>
-                 <input class="form-control" id="pais" placeholder="Pais" type="text" runat="server"  />
+                 <input class="form-control" id="pais" placeholder="Pais" type="text" runat="server"  required="required" />
                 </div>
                 <div>
                     <label>Correo</label>
-                    <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server"  />
+                    <input class="form-control" id="correo" placeholder="Correo" type="email" runat="server" required="required"  />
                 </div>
                 <div>
                     <label>Contraseña</label>
-                    <input class="form-control" id="contraseña" placeholder="Contraseña" type="text" runat="server"  />
+                    <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
                 </div>
                
                 
-                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" class="btn btn-primary" OnClick="btnRegistrar_Click" />
+                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar"  OnClick="btnRegistrar_Click" />
                     <!--<input type='reset' value='Cancelar' />-->
               
             </fieldset>
@@ -103,7 +103,7 @@
   <!-- Footer -->
 <footer class="">
     <!-- Footer Links -->
-    <div class="container ">
+
       <!-- Footer links -->
       <div class="">
         <!-- Grid column -->
@@ -136,11 +136,11 @@
       
     
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h3>Contact</h3>
+          <h3>Contacto</h3>
           <p>
             <i class="fa fa-home mr-3"></i> Alajuela, Desamparados, CR</p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> putoelquelolea@gmail.com</p>
+            <i class="fa fa-envelope mr-3"></i> venta@ebanistenialoslaureles.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>

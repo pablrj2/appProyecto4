@@ -112,11 +112,11 @@
       
     
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h3>Contact</h3>
+          <h3>Contacto</h3>
           <p>
             <i class="fa fa-home mr-3"></i> Alajuela, Desamparados, CR</p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> putoelquelolea@gmail.com</p>
+            <i class="fa fa-envelope mr-3"></i>  venta@ebanistenialoslaureles.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>

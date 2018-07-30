@@ -22,30 +22,39 @@ namespace appProyecto.Aspx {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control nombre.
+        /// Control nombre2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText nombre;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText nombre2;
         
         /// <summary>
-        /// Control correo.
+        /// Control correo2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText correo;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl correo2;
         
         /// <summary>
-        /// Control mensaje.
+        /// Control mensaje2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText mensaje;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea mensaje2;
+        
+        /// <summary>
+        /// Control btnContacto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnContacto;
     }
 }
