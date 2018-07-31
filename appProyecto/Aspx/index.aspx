@@ -4,47 +4,63 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ebanisteria los Laureles</title>
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="../scripts/jquery-3.0.0.min.js"></script>
+    
     <link href="../Content/bootstrap.css" rel="stylesheet" />
 
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="../scripts/jquery-3.0.0.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
     <link href="../html/css/Index-estilo.css" rel="stylesheet" />
+
+
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Ebanisteria los Laureles</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.aspx">Inicio<span class="sr-only">(current)</span></a>
+     <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Ebanisteria los Laureles</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#">Inicio</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Puertas</a></li>
+          <li><a href="#">Closets</a></li>
+          <li><a href="#">Comodas</a></li>
+          <li><a href="#">Roda pie</a></li>
+          <li><a href="#">Mesa de centro</a></li>
+        </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="producto.aspx">Productos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contactenos.aspx">Contactenos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="acercade.aspx">Acerca de</a>
-      </li>
+      <li><a href="#">Contactenos</a></li>
+      <li class="active"><a href="#">Acercade..</a></li>
     </ul>
-       <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="iniciarsesion.aspx" >Iniciar Sesion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="registrarse.aspx" >Registrarse</a>
-            </li>
-          </ul>
-    
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
+          <div class="dropdown-menu">
+            <form id="formLogin" class="form container-fluid">
+              <div class="form-group">
+                <label for="usr">Correo:</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Contraseña:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <button type="button" id="btnLogin" class="btn btn-block">Login</button>
+            </form>
+            <div class="container-fluid">
+              <br>
+              <a class="small" href="#">Forgot password?</a>
+            </div> 
+          </div>
+        </li>
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+           <li><a href="#">Registrarse</a></li>
+       </ul>
   </div>
 </nav>
 
