@@ -13,8 +13,15 @@ namespace appProyecto.Aspx
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
+      
+            //if (!IsPostBack)
+            //{
+            //    RepeaterProductos.DataSource =
+            //        Categoria.SeleccionarTodos();
+            //    RepeaterProductos.DataBind();
+            //}
+        
+    }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
