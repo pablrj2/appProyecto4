@@ -55,7 +55,7 @@ namespace appProyecto.Aspx {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText correo;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl correo;
         
         /// <summary>
         /// Control contraseña.
@@ -64,7 +64,7 @@ namespace appProyecto.Aspx {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText contraseña;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword contraseña;
         
         /// <summary>
         /// Control btnRegistrar.

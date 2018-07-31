@@ -17,21 +17,21 @@
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Ebanisteria los Laureles</a>
+      <a class="navbar-brand">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="#">Inicio</a></li>
+      <li ><a href="../Aspx/index.aspx">Inicio</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Puertas</a></li>
-          <li><a href="#">Closets</a></li>
-          <li><a href="#">Comodas</a></li>
-          <li><a href="#">Roda pie</a></li>
-          <li><a href="#">Mesa de centro</a></li>
+          <li><a href="../Aspx/listaPuertas.aspx">Puertas</a></li>
+          <li><a href="../Aspx/listaClosets.aspx">Closets</a></li>
+          <li><a href="../Aspx/listacomodas.aspx">Comodas</a></li>
+          <li><a href="../Aspx/listaRodaPie.aspx">Roda pie</a></li>
+          <li><a href="../Aspx/listamesasCentro.aspx">Mesa de centro</a></li>
         </ul>
       </li>
-      <li><a href="#">Contactenos</a></li>
-      <li class="active"><a href="#">Acercade..</a></li>
+      <li><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
+      <li class="active"><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -56,7 +56,7 @@
         </li>
       </ul>
        <ul class="nav navbar-nav navbar-right">
-           <li><a href="#">Registrarse</a></li>
+           <li><a href="../Aspx/registrarse.aspx">Registrarse</a></li>
        </ul>
   </div>
 </nav>
@@ -79,7 +79,7 @@
     <!-- Footer -->
 <footer class="">
     <!-- Footer Links -->
-    <div class="container ">
+
       <!-- Footer links -->
       <div class="">
         <!-- Grid column -->
@@ -93,30 +93,30 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h3 >Productos</h3>
           <p>
-            <a href="#!">Puertas</a>
+            <a href="../Aspx/listaPuertas.aspx">Puertas</a>
           </p>
           <p>
-            <a href="#!">Closets</a>
+            <a href="../Aspx/listaClosets.aspx">Closets</a>
           </p>
           <p>
-            <a href="#!">Comodas</a>
+            <a href="../Aspx/listaClosets.aspx">Comodas</a>
           </p>
           <p>
-            <a href="#!">Roda Pie</a>
+            <a href="../Aspx/listaRodaPie.aspx">Roda Pie</a>
           </p>
           <p>
-            <a href="#!">Mesa de Centro</a>
+            <a href="../Aspx/listamesasCentro.aspx">Mesa de Centro</a>
           </p>
         </div>
        
       
     
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h3>Contact</h3>
+          <h3>Contacto</h3>
           <p>
             <i class="fa fa-home mr-3"></i> Alajuela, Desamparados, CR</p>
           <p>
-            <i class="fa fa-envelope mr-3"></i> putoelquelolea@gmail.com</p>
+            <i class="fa fa-envelope mr-3"></i>  venta@ebanistenialoslaureles.com</p>
           <p>
             <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>
