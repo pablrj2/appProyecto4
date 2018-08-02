@@ -63,7 +63,7 @@
 </nav>
 
     
-
+<main>
     <section>
         <h1>Nuestros productos</h1>
     </section>
@@ -164,7 +164,7 @@
         </section>
     </main>
 
-
+</main>
 
   <!-- Footer -->
 <footer class="">

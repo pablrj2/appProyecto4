@@ -60,7 +60,7 @@
        </ul>
   </div>
 </nav>
-
+    <main>
     <section>
         <h1>Nuestros productos</h1>
     </section>
@@ -160,7 +160,7 @@
             </article>
         </section>
     </main>
-
+</main>
 
 
     <!-- Footer -->

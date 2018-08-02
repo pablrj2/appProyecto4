@@ -61,7 +61,7 @@
   </div>
 </nav>
 
-
+    <main>
     <section>
         <header id="Contactenos">
             <h1>Contactenos</h1>
@@ -95,7 +95,7 @@
     
 
 
-
+</main>
 
 
   <!-- Footer -->
