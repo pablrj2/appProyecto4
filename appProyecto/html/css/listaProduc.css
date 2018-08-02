@@ -17,21 +17,22 @@
 
     .cajaAreas h1 {
         color: white;
-        background-color: #006699;
+      
         height: 4%;
     }
     .cajaAreas {
-    border: 1px solid #CED5D7;
+    
     border-radius: 6px;
     padding:30px 10px 22px 2px;
     background-color: white;
-    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+   
     height: 30%;
     width:30%;
     float: left;
 }
-
-   
+.espacio{
+    margin-left: 60px;
+} 
     
 
 

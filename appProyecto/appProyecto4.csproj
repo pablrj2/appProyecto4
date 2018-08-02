@@ -118,8 +118,6 @@
     <Content Include="html\css\acercade-estilo.css" />
     <Content Include="html\css\registrarse-Estilo.css" />
     <Content Include="html\img\closets\closet1.jpg" />
-    <Content Include="html\img\closets\closet10.jpg" />
-    <Content Include="html\img\closets\closet11.jpg" />
     <Content Include="html\img\closets\closet2.jpg" />
     <Content Include="html\img\closets\closet3.jpg" />
     <Content Include="html\img\closets\closet4.jpg" />
@@ -203,7 +201,6 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="html\img\closets\Thumbs.db" />
     <None Include="scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="scripts\jquery-3.0.0.js" />
     <Content Include="scripts\jquery-3.0.0.min.js" />

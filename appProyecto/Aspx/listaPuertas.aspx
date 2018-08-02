@@ -61,105 +61,112 @@
        </ul>
   </div>
 </nav>
-
+    <main>
    <section>
         <h1>Nuestros productos</h1>
     </section>
-    <main>
-        <section>
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta1.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img  src="../html/img/puertas/puerta2.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta3.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta4.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+   
+       <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/puertas/puerta1.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta2.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta3.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta5.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/puertas/puerta4.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta5.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta6.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+  
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta6.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta7.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta8.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/puertas/puerta9.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
+        
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/puertas/puerta7.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta8.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/puertas/puerta9.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
     </main>
 
 
