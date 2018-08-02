@@ -36,19 +36,20 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">
-            <form id="formLogin" class="form container-fluid">
+            <form  id="formLogin" class="form container-fluid" runat="server">           
               <div class="form-group">
                 <label for="usr">Correo:</label>
-                <input type="text" class="form-control" id="usr">
+                <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server" required="required"  />     
               </div>
               <div class="form-group">
                 <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-              <button type="button" id="btnLogin" class="btn btn-block">Login</button>
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
             <div class="container-fluid">
-              <br>
+              
               <a class="small" href="#">Forgot password?</a>
             </div> 
           </div>
@@ -114,11 +115,11 @@
 </div>
 
 
-    </br><h2>¿Por qué Ebanisteria los laureles?</h2>
+    <h2>¿Por qué Ebanisteria los laureles?</h2>
 
 
     <!--carrucel-->
-     </br><div class="container marketing">
+     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -140,7 +141,7 @@
             <p>Contamos con productos de calidad, con precios competitivos en el mercado y hechos completamente a mano. </p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-         </div></br>
+         </div>
 
  </main>
 
@@ -194,7 +195,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+      
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->

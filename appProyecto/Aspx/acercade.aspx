@@ -4,12 +4,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Ebanisteria los Laureles</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../html/css/acercade-estilo.css">
+    <link rel="stylesheet" href="../html/css/acercade-estilo.css"/>
 
 </head>
 <body>
@@ -50,7 +50,7 @@
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
             <div class="container-fluid">
-              <br>
+              
               <a class="small" href="#">Forgot password?</a>
             </div> 
           </div>
@@ -73,7 +73,7 @@
             los mas hermosos diseños acabados en madera de primera calidad.
            </p>
     </article>
-    <img src="../html/img/ebanisteria1.jpeg" alt="Logo ebanisteria" width=150 />
+    <img src="../html/img/ebanisteria1.jpeg" alt="Logo ebanisteria" width="150" />
    
  </main>
 
@@ -126,7 +126,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+      
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->
