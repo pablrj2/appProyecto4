@@ -5,9 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Ebanisteria los Laureles</title>
-    
-   
-
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
@@ -62,11 +60,11 @@
   </div>
 </nav>
 
+    <main>
 
+       <main role="main" >
 
-       <main role="main">
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div  id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -134,7 +132,7 @@
         </div><!-- /.row -->
          </div></br>
 
-
+ </main>
 
 
       <!-- Footer -->

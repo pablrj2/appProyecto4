@@ -61,7 +61,7 @@
   </div>
 </nav>
 
-
+    <main>
  <h2>Nuestra Historia</h2>
     <article>
            <p>
@@ -74,7 +74,7 @@
     </article>
     <img src="../html/img/ebanisteria1.jpeg" alt="Logo ebanisteria" width=150 />
    
-
+ </main>
 
     <!-- Footer -->
 <footer class="">
