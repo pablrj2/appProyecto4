@@ -13,7 +13,7 @@
     <link href="../html/css/listaProduc.css" rel="stylesheet" />
 </head>
 <body>
-
+    
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -60,6 +60,7 @@
        </ul>
   </div>
 </nav>
+        <main>
 
     <section>
         <h1>Nuestros productos</h1>
@@ -161,7 +162,7 @@
         </section>
     </main>
 
-
+</main>
 
     <!-- Footer -->
 <footer class="">

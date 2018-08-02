@@ -80,6 +80,9 @@ tr , th{
 	text-align:left;
 }
 
-td{
-    text-align:left;
+td {
+    text-align: left;
+}
+main{
+    padding-bottom:200px;
 }
