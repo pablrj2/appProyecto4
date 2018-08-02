@@ -16,7 +16,13 @@ namespace appProyecto.BD
         public string nombre { get; set; }
         public string  pais { get; set; }
 
-        public static DataSet SeleccionarTodos()
+        public string tipoUsuario { get; set; }
+
+        public string categoria { get; set; }
+
+
+
+        public static DataSet SeleccionarTodos(string cor)
         {
             Database db = DatabaseFactory.CreateDatabase("Default");
 
@@ -24,6 +30,8 @@ namespace appProyecto.BD
 
             comando.CommandType = CommandType.Text;
             DataSet ds = db.ExecuteReader(comando, "Usuario");
+            
+      
             return ds;
         }
 
@@ -41,6 +49,48 @@ namespace appProyecto.BD
                 cmd.Parameters.AddWithValue("@categoria", 0);
                 db.ExecuteNonQuery(cmd);
             }
+        }
+
+
+        public   Registrar SeleccionarUsuarioPorId(string Email)
+        {
+            Registrar Usuario = null;
+            Database db = DatabaseFactory.CreateDatabase("Default");
+            try
+            {
+             
+
+                string sql = "[dbo].[sp_Usuario_SelectRow]";
+
+                SqlCommand comando = new SqlCommand(sql,db.Conexion);
+                comando.Parameters.AddWithValue("@correo", Email);
+
+                comando.CommandType = System.Data.CommandType.StoredProcedure;
+                SqlDataReader reader = comando.ExecuteReader();
+
+
+                while (reader.Read())
+                {
+                    Usuario = new Registrar()
+                    {
+                        correo = reader["correo"].ToString(),
+                        categoria = reader["categoria"].ToString(),
+                        contraseña = reader["contraseña"].ToString(),
+                        identificacion = reader["identificacion"].ToString(),
+                        nombre = reader["nombre"].ToString(),
+                        pais=reader["pais"].ToString(),
+                        tipoUsuario = reader["tipoUsuario"].ToString()
+
+                    };
+                }
+                return Usuario;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+          
         }
     }
 }

@@ -36,17 +36,17 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
-          <div class="dropdown-menu">
-            <form id="formLogin" class="form container-fluid">
+          <div class="dropdown-menu">      
+            <form  id="formLogin" class="form container-fluid" runat="server">           
               <div class="form-group">
                 <label for="usr">Correo:</label>
-                <input type="text" class="form-control" id="usr">
+                <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server" required="required"  />     
               </div>
               <div class="form-group">
                 <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-              <button type="button" id="btnLogin" class="btn btn-block">Login</button>
+                <asp:Button ID="Button1" runat="server" Text="Button" />          
             </form>
             <div class="container-fluid">
               <br>
@@ -67,23 +67,24 @@
             <h1>Contactenos</h1>
         </header>
     </section>
-     <form id="form1" runat="server" >
+
+   <form id="form1" action="Class1.php" >
             <div class="col-lg-6">
             <fieldset>           
             <div>
                  <label>Nombre Completo</label>
-                 <input class="form-control" id="nombre2" placeholder="Nombre" type="text" runat="server" required="required"/>
+                 <input class="form-control" id="nombre2" placeholder="Nombre" type="text"  required="required"/>
             </div>
             <div>
                  <label>Correo</label>
-                 <input class="form-control" id="correo2" placeholder="Correo" type="email" runat="server"  required="required"/>
+                 <input class="form-control" id="correo2" placeholder="Correo" type="email"   required="required"/>
             </div>
             <div>
                 <label>Mensaje</label>
-                <textarea class="form-control" id="mensaje2" placeholder="Mensaje"  runat="server" required="required"></textarea> 
+                <textarea class="form-control" id="mensaje2" placeholder="Mensaje"  required="required"></textarea> 
             </div>
             <div>
-                <asp:Button ID="btnContacto" runat="server" Text="Contacto" />
+                 <input type="submit" value="Enviar" id="boton">
             </div>              
           </fieldset>
        </div>
