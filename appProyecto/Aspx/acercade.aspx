@@ -13,7 +13,7 @@
 
 </head>
 <body>
-   
+  
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -61,7 +61,7 @@
   </div>
 </nav>
 
-    <main>
+     <main>
  <h2>Nuestra Historia</h2>
     <article>
            <p>
