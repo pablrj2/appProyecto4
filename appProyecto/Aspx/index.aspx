@@ -13,6 +13,7 @@
 
 </head>
 <body>
+    <form runat="server">
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -32,11 +33,11 @@
       <li ><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
       <li ><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
-
-      <ul class="nav navbar-nav navbar-right">
+      
+      <ul class="nav navbar-nav navbar-right"><!--iniciar sesion-->
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
-          <div class="dropdown-menu">
-            <form  id="formLogin" class="form container-fluid" runat="server">           
+          <div class="dropdown-menu">      
+                     
               <div class="form-group">
                 <label for="usr">Correo:</label>
                 <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server" required="required"  />     
@@ -45,10 +46,10 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>      
-                <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
-            </form>
-           
+              <asp:Button ID="Button1" runat="server" Text="Iniciar Sesion"   OnClick="Button1_click"/>
+              <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>   
+            
+            
           </div>
         </li>
       </ul>
@@ -215,6 +216,6 @@
   </footer>
   <!-- Footer -->
 
-
+</form>
 </body>
 </html>

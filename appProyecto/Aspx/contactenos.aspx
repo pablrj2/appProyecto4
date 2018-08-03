@@ -74,6 +74,10 @@
                  <label>Nombre Completo</label>
                  <input class="form-control" id="nombre2" placeholder="Nombre" type="text"  required="required" runat="server"/>
             </div>
+                <div>
+                 <label>Telefono</label>
+                 <input class="form-control" id="telefono2" placeholder="Telefono" type="text"  required="required" runat="server"/>
+            </div>
             <div>
                  <label>Correo</label>
                  <input class="form-control" id="correo2" placeholder="Correo" type="email"   required="required" runat="server"/>

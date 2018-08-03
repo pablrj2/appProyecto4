@@ -29,6 +29,8 @@ namespace appProyecto.Aspx
             cat.identificacion = identificacion.Value;
             Registrar.Insertar(cat);
             Response.Redirect("registrarse.aspx");
+            Response.Write("<script>window.alert('Te acabas de registrar');</script>");
+
         }
 
         protected void Button1_click(object sender, EventArgs e)
@@ -49,7 +51,7 @@ namespace appProyecto.Aspx
                 else
                 {
                     Session["Usuario"] = logica.correo;
-                    Response.Redirect("listaPuertas.aspx");
+                    Response.Redirect("registrarse.aspx");
                 }
             }
 

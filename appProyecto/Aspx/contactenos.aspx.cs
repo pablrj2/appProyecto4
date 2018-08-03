@@ -52,8 +52,10 @@ namespace appProyecto.Aspx
                     "Vainilla2810", "Anyel y Pablo",
                     nombre2.Value,
                     correo2.Value,
-                    mensaje2.Value);
-                //Cursor = Cursors.WaitCursor;
+                    mensaje2.Value,
+                    telefono2.Value);
+                
+
             }
             catch (Exception)
             {
@@ -62,7 +64,7 @@ namespace appProyecto.Aspx
             }
         }
 
-        public void enviar_correo(string host, int puerto, string remitente, string contraseña, string nombre, string nombrec, string correoc, string mensajec)
+        public void enviar_correo(string host, int puerto, string remitente, string contraseña, string nombre, string nombrec, string correoc, string mensajec,string telefonoc)
         {
             try
             {
@@ -70,22 +72,23 @@ namespace appProyecto.Aspx
                 MailMessage correo = new MailMessage();
 
                 correo.From = new MailAddress(remitente, nombre);
-                correo.Body = nombrec + " "+correo+" " + mensajec;
+                correo.Body = nombrec +" "+telefonoc+ " "+correoc+" " + mensajec;
                 correo.To.Add(remitente);
 
 
                 cliente.Credentials = new NetworkCredential(remitente, contraseña);
                 cliente.EnableSsl = true;
                 cliente.Send(correo);
-
+                
                 Response.Write("<script>window.alert('El correo se ha enviado correctamente');</script>");
-               
+
+                
             }
             catch (Exception ex)
             {
                 Response.Write("<script>window.alert('No tiene los suficientes privilegios para acceder a la pagina');</script>" + "<script>window.setTimeout(location.href='eBudget_Main.aspx', 2000);</script>");
             }
-            // Cursor = Cursors.Arrow;
+        
         }
     }
 }
