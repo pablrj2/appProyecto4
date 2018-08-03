@@ -18,7 +18,7 @@
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand">Ebanisteria los Laureles</a>
+      <a class="navbar-brand" href="../Aspx/index.aspx">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="../Aspx/index.aspx">Inicio</a></li>
@@ -47,13 +47,10 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-              <asp:Button ID="Button1" runat="server" Text="Button"   OnClick="Button1_click"/>
+              <asp:Button ID="Button1" runat="server" Text="Iniciar Sesion"   OnClick="Button1_click"/>
               <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>   
             
-            <div class="container-fluid">
-              <br>
-              <a class="small" href="#">Forgot password?</a>
-            </div> 
+            
           </div>
         </li>
       </ul>

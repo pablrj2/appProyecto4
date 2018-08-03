@@ -16,7 +16,7 @@
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand">Ebanistería los Laureles</a>
+      <a class="navbar-brand" href="../Aspx/index.aspx">Ebanistería los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="../Aspx/index.aspx">Inicio</a></li>
@@ -45,13 +45,10 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>      
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
-            <div class="container-fluid">
-              
-              <a class="small" href="#">Forgot password?</a>
-            </div> 
+           
           </div>
         </li>
       </ul>
@@ -78,14 +75,14 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="../html/img/ebanisteria1.jpeg" alt="Los Angeles" style="width:200%;">
+        <img src="../html/img/ebanisteria1.jpeg" alt="Los Angeles" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Trabajos de calidad</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="../html/img/ebanisteria2.jpeg" alt="Chicago" style="width:200%;">
+        <img src="../html/img/ebanisteria2.jpeg" alt="Chicago" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Madera de primera</h3>
           
@@ -93,7 +90,7 @@
       </div>
     
       <div class="item">
-        <img src="../html/img/ebanisteria3.jpeg" alt="New York" style="width:200%;">
+        <img src="../html/img/ebanisteria3.jpeg" alt="New York" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Entregas a tiempo</h3>
           

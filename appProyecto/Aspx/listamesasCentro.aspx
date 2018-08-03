@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listasmesasCentro.aspx.cs" Inherits="appProyecto.Aspx.listasmesascentro" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listamesasCentro.aspx.cs" Inherits="appProyecto.Aspx.listasmesascentro" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ebanisteria los Laureles</title>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <link href="../html/css/listaProduc.css" rel="stylesheet" />
@@ -16,7 +16,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand">Ebanisteria los Laureles</a>
+      <a class="navbar-brand" href="../Aspx/index.aspx">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="../Aspx/index.aspx">Inicio</a></li>
@@ -44,13 +44,10 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>
+                <asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
-            <div class="container-fluid">
-              <br>
-              <a class="small" href="#">Forgot password?</a>
-            </div> 
+            
           </div>
         </li>
       </ul>
@@ -212,7 +209,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+     
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->

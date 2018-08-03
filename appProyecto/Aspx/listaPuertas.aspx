@@ -5,9 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <title>Ebanisteria los Laureles</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
  
@@ -18,7 +18,7 @@
 <nav class="navbar navbar-inverse">
   
     <div class="navbar-header">
-      <a class="navbar-brand">Ebanisteria los Laureles</a>
+      <a class="navbar-brand" href="../Aspx/index.aspx">Ebanisteria los Laureles</a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="../Aspx/index.aspx">Inicio</a></li>
@@ -47,20 +47,17 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>      
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
-            <div class="container-fluid">
-              <br>
-              <a class="small" href="#">Forgot password?</a>
-            </div> 
+            
           </div>
         </li>
       </ul>
        <ul class="nav navbar-nav navbar-right">
            <li><a href="../Aspx/registrarse.aspx">Registrarse</a></li>
        </ul>
-  </div>
+  
 </nav>
     <main>
    <section>
@@ -71,7 +68,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
        <a href="#">
-        <img src="../html/img/puertas/puerta1.jpg" alt="Logo1" style="width:100%">
+        <img src="../html/img/puertas/puerta1.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -81,7 +78,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta2.jpg" alt="logo2" style="width:100%">
+        <img src="../html/img/puertas/puerta2.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -91,7 +88,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta3.jpg" alt="logo3" style="width:100%">
+        <img src="../html/img/puertas/puerta3.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
         <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -105,7 +102,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
        <a href="#">
-        <img src="../html/img/puertas/puerta4.jpg" alt="Logo1" style="width:100%">
+        <img src="../html/img/puertas/puerta4.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -115,7 +112,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta5.jpg" alt="logo2" style="width:100%">
+        <img src="../html/img/puertas/puerta5.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -125,7 +122,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta6.jpg" alt="logo3" style="width:100%">
+        <img src="../html/img/puertas/puerta6.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
         <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -140,7 +137,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
        <a href="#">
-        <img src="../html/img/puertas/puerta7.jpg" alt="Logo1" style="width:100%">
+        <img src="../html/img/puertas/puerta7.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -150,7 +147,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta8.jpg" alt="logo2" style="width:100%">
+        <img src="../html/img/puertas/puerta8.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
           <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -160,7 +157,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../html/img/puertas/puerta9.jpg" alt="logo3" style="width:100%">
+        <img src="../html/img/puertas/puerta9.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
         <button type="button" class="btn btn-primary">Primary</button>
         </div>
@@ -221,7 +218,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+   
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->
