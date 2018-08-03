@@ -8,14 +8,13 @@ using System.Web.UI.WebControls;
 
 namespace appProyecto.Aspx
 {
-    public partial class listamesasCentro : System.Web.UI.Page
+    public partial class listasmesascentro : System.Web.UI.Page
     {
         Registrar logica = null;
         protected void Page_Load(object sender, EventArgs e)
         {
             logica = new Registrar();
         }
-
         protected void Button1_click(object sender, EventArgs e)
         {
             Registrar logica2 = null;
@@ -34,7 +33,7 @@ namespace appProyecto.Aspx
                 else
                 {
                     Session["Usuario"] = logica.correo;
-                    Response.Redirect("listamesasCentro.aspx");
+                    Response.Redirect("listaPuertas.aspx");
                 }
             }
 

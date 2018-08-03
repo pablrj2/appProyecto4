@@ -13,7 +13,7 @@
     <link href="../html/css/registrarse-estilo.css" rel="stylesheet" />
 </head>
 <body>
-   
+   <form runat="server">
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -37,17 +37,18 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">
-            <form id="formLogin" class="form container-fluid">
+                   
               <div class="form-group">
                 <label for="usr">Correo:</label>
-                <input type="text" class="form-control" id="usr">
+                <input class="form-control" id="Text1" placeholder="Correo" type="text" runat="server" required="required"  />     
               </div>
               <div class="form-group">
                 <label for="pwd">Contraseña:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input class="form-control" id="Password1" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-              <button type="button" id="btnLogin" class="btn btn-block">Login</button>
-            </form>
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
+           
             <div class="container-fluid">
               <br>
               <a class="small" href="#">Forgot password?</a>
@@ -67,7 +68,7 @@
             <h1>Registrarse</h1>
         </header>
     </section>
-        <form id="form1" runat="server" >
+       
             <div class="col-lg-6">
             <fieldset>
                 
@@ -98,7 +99,7 @@
               
             </fieldset>
         </div>
-        </form>
+        
 
   <!-- Footer -->
 <footer class="">
@@ -172,6 +173,6 @@
   </footer>
   <!-- Footer -->
 
-
+</form>
 </body>
 </html>

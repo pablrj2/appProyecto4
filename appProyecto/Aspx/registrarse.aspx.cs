@@ -11,17 +11,13 @@ namespace appProyecto.Aspx
 {
     public partial class registrarse : System.Web.UI.Page
     {
+        Registrar logica = null;
         protected void Page_Load(object sender, EventArgs e)
         {
-      
-            //if (!IsPostBack)
-            //{
-            //    RepeaterProductos.DataSource =
-            //        Categoria.SeleccionarTodos();
-            //    RepeaterProductos.DataBind();
-            //}
-        
-    }
+
+            logica = new Registrar();
+
+        }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
@@ -34,7 +30,30 @@ namespace appProyecto.Aspx
             Registrar.Insertar(cat);
             Response.Redirect("registrarse.aspx");
         }
-        
+
+        protected void Button1_click(object sender, EventArgs e)
+        {
+            Registrar logica2 = null;
+            logica2 = logica.SeleccionarUsuarioPorId(correo.Value);
+
+            if (logica == null)
+            {
+                lblError.Text = "Este Usuario no existe";
+            }
+            else
+            {
+                if (logica2.contraseña != contraseña.Value)
+                {
+                    lblError.Text = "Contraseña Incorrecta";
+                }
+                else
+                {
+                    Session["Usuario"] = logica.correo;
+                    Response.Redirect("listaPuertas.aspx");
+                }
+            }
+
+        }
 
 
     }

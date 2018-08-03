@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaPuertas.aspx.cs" Inherits="appProyecto.Aspx.listaPuertas" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaRodaPie.aspx.cs" Inherits="appProyecto.Aspx.listaRodaPie" %>
 
 <!DOCTYPE html>
 
@@ -23,6 +23,7 @@
       <li ><a href="../Aspx/index.aspx">Inicio</a></li>
       <li  class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>
         <ul class="dropdown-menu">
+            
           <li><a href="../Aspx/listaPuertas.aspx">Puertas</a></li>
           <li><a href="../Aspx/listaClosets.aspx">Closets</a></li>
           <li><a href="../Aspx/listacomodas.aspx">Comodas</a></li>
@@ -40,14 +41,14 @@
             <form  id="formLogin" class="form container-fluid" runat="server">           
               <div class="form-group">
                 <label for="usr">Correo:</label>
-                <input class="form-control" id="correo2" placeholder="Correo" type="text" runat="server" required="required"  />     
+                <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server" required="required"  />     
               </div>
               <div class="form-group">
                 <label for="pwd">Contraseña:</label>
-                <input class="form-control" id="contraseña2" placeholder="Contraseña" type="password" runat="server" required="required"  />
+                <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button2" runat="server" Text="Button" OnClick="Button2_click"/>      
-                <asp:Label ID="lblError2" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
             <div class="container-fluid">
               <br>

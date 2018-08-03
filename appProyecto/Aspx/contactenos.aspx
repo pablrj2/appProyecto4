@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <form runat="server">
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -37,7 +38,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">      
-            <form  id="formLogin" class="form container-fluid" runat="server">           
+                     
               <div class="form-group">
                 <label for="usr">Correo:</label>
                 <input class="form-control" id="correo" placeholder="Correo" type="text" runat="server" required="required"  />     
@@ -46,8 +47,9 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Button" />          
-            </form>
+              <asp:Button ID="Button1" runat="server" Text="Button"   OnClick="Button1_click"/>
+              <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>   
+            
             <div class="container-fluid">
               <br>
               <a class="small" href="#">Forgot password?</a>
@@ -68,31 +70,30 @@
         </header>
     </section>
 
-   <form id="form1" action="Class1.php" >
+   
             <div class="col-lg-6">
             <fieldset>           
             <div>
                  <label>Nombre Completo</label>
-                 <input class="form-control" id="nombre2" placeholder="Nombre" type="text"  required="required"/>
+                 <input class="form-control" id="nombre2" placeholder="Nombre" type="text"  required="required" runat="server"/>
             </div>
             <div>
                  <label>Correo</label>
-                 <input class="form-control" id="correo2" placeholder="Correo" type="email"   required="required"/>
+                 <input class="form-control" id="correo2" placeholder="Correo" type="email"   required="required" runat="server"/>
             </div>
             <div>
                 <label>Mensaje</label>
-                <textarea class="form-control" id="mensaje2" placeholder="Mensaje"  required="required"></textarea> 
+                <textarea class="form-control" id="mensaje2" placeholder="Mensaje"  required="required" runat="server"></textarea> 
             </div>
             <div>
-                 <input type="submit" value="Enviar" id="boton">
+                 &nbsp;<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Enviar" />
             </div>              
           </fieldset>
        </div>
-    </form>
+    
 
 
-    <div id="map"> </div>
-    <script src="https://www.google.com/maps/place/10%C2%B001'29.6%22N+84%C2%B011'24.1%22W/@10.0248855,-84.1922209,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d10.0248855!4d-84.1900322?hl=es" async defer></script>
+    
     
 
 
@@ -171,6 +172,6 @@
   </footer>
   <!-- Footer -->
 
-
+</form>
 </body>
 </html>

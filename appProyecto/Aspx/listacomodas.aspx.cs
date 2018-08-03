@@ -15,7 +15,6 @@ namespace appProyecto.Aspx
         {
             logica = new Registrar();
         }
-
         protected void Button1_click(object sender, EventArgs e)
         {
             Registrar logica2 = null;

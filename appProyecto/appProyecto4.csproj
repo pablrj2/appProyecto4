@@ -101,9 +101,9 @@
     <Content Include="Aspx\index.aspx" />
     <Content Include="Aspx\listaClosets.aspx" />
     <Content Include="Aspx\listacomodas.aspx" />
-    <Content Include="Aspx\listamesasCentro.aspx" />
     <Content Include="Aspx\listaPuertas.aspx" />
     <Content Include="Aspx\listaRodaPie.aspx" />
+    <Content Include="Aspx\listasmesasCentro.aspx" />
     <Content Include="Aspx\registrarse.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -179,7 +179,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="php\Class1.php" />
     <Content Include="scripts\bootstrap.bundle.js" />
     <Content Include="scripts\bootstrap.bundle.min.js" />
     <Content Include="scripts\bootstrap.js" />
@@ -280,13 +279,6 @@
     <Compile Include="Aspx\listacomodas.aspx.designer.cs">
       <DependentUpon>listacomodas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Aspx\listamesasCentro.aspx.cs">
-      <DependentUpon>listamesasCentro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Aspx\listamesasCentro.aspx.designer.cs">
-      <DependentUpon>listamesasCentro.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Aspx\listaPuertas.aspx.cs">
       <DependentUpon>listaPuertas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -300,6 +292,13 @@
     </Compile>
     <Compile Include="Aspx\listaRodaPie.aspx.designer.cs">
       <DependentUpon>listaRodaPie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspx\listasmesasCentro.aspx.cs">
+      <DependentUpon>listasmesasCentro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspx\listasmesasCentro.aspx.designer.cs">
+      <DependentUpon>listasmesasCentro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Aspx\registrarse.aspx.cs">
       <DependentUpon>registrarse.aspx</DependentUpon>

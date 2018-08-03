@@ -1,15 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaPuertas.aspx.cs" Inherits="appProyecto.Aspx.listaPuertas" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listasmesasCentro.aspx.cs" Inherits="appProyecto.Aspx.listasmesascentro" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ebanisteria los Laureles</title>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../html/css/acercade-estilo.css">
     <link href="../html/css/listaProduc.css" rel="stylesheet" />
 </head>
 <body>
@@ -33,7 +32,6 @@
       <li><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
       <li ><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
-
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">
@@ -46,7 +44,7 @@
                 <label for="pwd">Contraseña:</label>
                 <input class="form-control" id="contraseña" placeholder="Contraseña" type="password" runat="server" required="required"  />
               </div>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>      
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_click"/>
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
             </form>
             <div class="container-fluid">

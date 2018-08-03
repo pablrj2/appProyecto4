@@ -10,36 +10,34 @@ namespace appProyecto.Aspx
 {
     public partial class listaRodaPie : System.Web.UI.Page
     {
-
         Registrar logica = null;
         protected void Page_Load(object sender, EventArgs e)
         {
             logica = new Registrar();
         }
 
-        protected void Button2_click(object sender, EventArgs e)
+        protected void Button1_click(object sender, EventArgs e)
         {
             Registrar logica2 = null;
-            logica2 = logica.SeleccionarUsuarioPorId(correo2.Value);
+            logica2 = logica.SeleccionarUsuarioPorId(correo.Value);
 
             if (logica == null)
             {
-                lblError2.Text = "Este Usuario no existe";
+                lblError.Text = "Este Usuario no existe";
             }
             else
             {
-                if (logica2.contraseña != contraseña2.Value)
+                if (logica2.contraseña != contraseña.Value)
                 {
-                    lblError2.Text = "Contraseña Incorrecta";
+                    lblError.Text = "Contraseña Incorrecta";
                 }
                 else
                 {
                     Session["Usuario"] = logica.correo;
-                    Response.Redirect("listaRodaPie.aspx");
+                    Response.Redirect("listaPuertas.aspx");
                 }
             }
 
         }
-
     }
 }

@@ -22,39 +22,39 @@ namespace appProyecto.Aspx {
         protected global::System.Web.UI.HtmlControls.HtmlForm formLogin;
         
         /// <summary>
-        /// Control correo2.
+        /// Control correo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText correo2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText correo;
         
         /// <summary>
-        /// Control contraseña2.
+        /// Control contraseña.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword contraseña2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword contraseña;
         
         /// <summary>
-        /// Control Button2.
+        /// Control Button1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Control lblError2.
+        /// Control lblError.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblError2;
+        protected global::System.Web.UI.WebControls.Label lblError;
     }
 }

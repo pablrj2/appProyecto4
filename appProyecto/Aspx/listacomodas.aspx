@@ -1,16 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaClosets.aspx.cs" Inherits="appProyecto.Aspx.listaClosets" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listacomodas.aspx.cs" Inherits="appProyecto.Aspx.listacomodas" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title>Ebanisteria los Laureles</title>
   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../html/css/acercade-estilo.css">
+    <link rel="stylesheet" href="../html/css/acercade-estilo.css"/>
     <link href="../html/css/listaProduc.css" rel="stylesheet" />
 </head>
 <body>
@@ -34,7 +34,6 @@
       <li><a href="../Aspx/contactenos.aspx">Contactenos</a></li>
       <li ><a href="../Aspx/acercade.aspx">Acercade..</a></li>
     </ul>
-
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">
@@ -238,4 +237,5 @@
   </footer>
   <!-- Footer -->
 </body>
+
 </html>

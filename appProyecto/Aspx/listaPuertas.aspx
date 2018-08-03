@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html >
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <title>Ebanisteria los Laureles</title>
   <meta charset="utf-8">
@@ -16,7 +16,7 @@
 <body>
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  
     <div class="navbar-header">
       <a class="navbar-brand">Ebanisteria los Laureles</a>
     </div>
