@@ -58,108 +58,113 @@
        </ul>
   </div>
 </nav>
-    
+
 <main>
-    <section>
+   <section>
         <h1>Nuestros productos</h1>
     </section>
-    <main>
-        <section>
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda1.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img  src="../html/img/comodas/comoda2.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda3.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda4.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+   
+       <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/comodas/comoda1.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/comodas/comoda2.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/comodas/comoda3.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda5.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/comodas/comoda4.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/closets/closet5.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/comodas/comoda6.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+  
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda6.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda7.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda8.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/comodas/comoda9.jpeg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
-    </main>
-
+        
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/comodas/comoda7.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/comodas/comoda8.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/comodas/comoda9.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
     </main>
 
    <!-- Footer -->
