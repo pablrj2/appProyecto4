@@ -59,7 +59,7 @@
 </nav>
         <main>
    <section>
-        <h1>Nuestros productos</h1>
+        <h1>Mesas de Centro</h1>
     </section>
    
        <div class="row">
