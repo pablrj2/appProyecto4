@@ -72,7 +72,7 @@ namespace appProyecto.Aspx
                 MailMessage correo = new MailMessage();
 
                 correo.From = new MailAddress(remitente, nombre);
-                correo.Body = nombrec +" "+telefonoc+ " "+correoc+" " + mensajec;
+                correo.Body ="Nombre: "+ nombrec +"/nTelefono: "+telefonoc+ "/nCorreo: "+correoc+"/nMensaje: " + mensajec;
                 correo.To.Add(remitente);
 
 
