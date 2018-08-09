@@ -61,7 +61,7 @@
 
 <main>
    <section>
-        <h1>Nuestros productos</h1>
+        <h1>Comodas</h1>
     </section>
    
        <div class="row">
