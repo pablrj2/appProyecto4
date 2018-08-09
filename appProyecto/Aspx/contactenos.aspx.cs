@@ -38,7 +38,9 @@ namespace appProyecto.Aspx
                 else
                 {
                     Session["Usuario"] = logica.correo;
-                    Response.Redirect("acercade.aspx");
+                    Response.Redirect("contactenos.aspx");
+
+                   
                 }
             }
 
@@ -49,7 +51,7 @@ namespace appProyecto.Aspx
             {
                 enviar_correo("smtp-mail.outlook.com", 587,
                     "any.sanabria.h28@hotmail.com",
-                    "Vainilla2810", "Anyel y Pablo",
+                    "2810AnyelV", "Anyel y Pablo",
                     nombre2.Value,
                     correo2.Value,
                     mensaje2.Value,

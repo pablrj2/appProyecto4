@@ -35,6 +35,7 @@ namespace appProyecto.Aspx
                 {
                     Session["Usuario"] = logica.correo;
                     Response.Redirect("index.aspx");
+                  
                 }
             }
 
