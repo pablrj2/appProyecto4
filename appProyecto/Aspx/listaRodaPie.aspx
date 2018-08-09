@@ -59,107 +59,113 @@
        </ul>
   </div>
 </nav>
-    <main>
-    <section>
+   <main>
+   <section>
         <h1>Nuestros productos</h1>
     </section>
-    <main>
-        <section>
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapi2.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie1.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie3.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie4.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+   
+       <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/rodapies/rodapie1.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie2.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie3.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie5.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/rodapies/rodapie4.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie5.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie6.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+  
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie6.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie7.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie8.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/rodapies/rodapie9.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
+        
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/rodapies/rodapie7.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie8.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/rodapies/rodapie9.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
     </main>
-</main>
 
 
     <!-- Footer -->

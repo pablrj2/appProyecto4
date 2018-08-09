@@ -57,109 +57,112 @@
   </div>
 </nav>
         <main>
-
-    <section>
+   <section>
         <h1>Nuestros productos</h1>
     </section>
-    <main>
-        <section>
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa2.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa3.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa4.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa5.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+   
+       <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/mesacentro/mesa1 - copia.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa2.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa3.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa6.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/mesacentro/mesa4.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa5 - copia.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa6 - copia.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+  
 
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa7.jpg"/></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa8.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa9.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="cajaAreas">
-                <figure>
-                    <a href="#"><img src="../html/img/mesacentro/mesa10.jpg" /></a>
-                    <figcaption>
-                        <h1>Mueble 1</h1>
-                        <p>Madera de alta calidad</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
+        
+  <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+       <a href="#">
+        <img src="../html/img/mesacentro/mesa7.jpg" alt="Logo1" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa8.jpg" alt="logo2" style="width:100%">
+        <div class="caption">
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="../html/img/mesacentro/mesa9 - copia.jpg" alt="logo3" style="width:100%">
+        <div class="caption">
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
     </main>
-
-</main>
-
     <!-- Footer -->
 <footer class="">
     <!-- Footer Links -->
