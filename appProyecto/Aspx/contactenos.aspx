@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../html/css/contactenos-estilo.css" />
+    <link rel="stylesheet" href="../css/contactenos-estilo.css" />
 </head>
 
 <body>
@@ -143,9 +143,9 @@
           <p>
             <i class="fa fa-envelope mr-3"></i> venta@ebanistenialoslaureles.com</p>
           <p>
-            <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+            <i class="fa fa-phone mr-3"></i> + 506 8534 3588</p>
           <p>
-            <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            <i class="fa fa-print mr-3"></i> + 506 6429 0567</p>
         </div>
         <!-- Grid column -->
       </div>

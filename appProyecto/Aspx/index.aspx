@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="../html/css/Index-estilo.css" rel="stylesheet" />
+    <link href="../css/Index-estilo.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -76,14 +76,14 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="../html/img/ebanisteria1.jpeg" alt="Los Angeles" style="width:200%;"/>
+        <img src="../img/ebanisteria1.jpeg" alt="Los Angeles" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Trabajos de calidad</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="../html/img/ebanisteria2.jpeg" alt="Chicago" style="width:200%;"/>
+        <img src="../img/ebanisteria2.jpeg" alt="Chicago" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Madera de primera</h3>
           
@@ -91,7 +91,7 @@
       </div>
     
       <div class="item">
-        <img src="../html/img/ebanisteria3.jpeg" alt="New York" style="width:200%;"/>
+        <img src="../img/ebanisteria3.jpeg" alt="New York" style="width:200%;"/>
         <div class="carousel-caption">
           <h3>Entregas a tiempo</h3>
           
@@ -122,19 +122,19 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="../html/img/logomadera.jpg" alt="logomadera" width="140" height="140"/>
+            <img class="rounded-circle" src="../img/logomadera.jpg" alt="logomadera" width="140" height="140"/>
             <h3>Calidad</h3>
             <p>Contamos con madera de la mejor calidad en una gran varia de tipos.</p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
-            <img class="rounded-circle" src="../html/img/trabajo.jpg" alt="Generic placeholder image" width="140" height="140"/>
+            <img class="rounded-circle" src="../img/trabajo.jpg" alt="Generic placeholder image" width="140" height="140"/>
             <h3>Trabajo</h3>
             <p>Nuestros productos son realizados con arduo trabajo, dedicación y perseverancia.</p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
-            <img class="rounded-circle" src="../html/img/trabajo3.jpg" alt="Generic placeholder image" width="140" height="140"/>
+            <img class="rounded-circle" src="../img/trabajo3.jpg" alt="Generic placeholder image" width="140" height="140"/>
             <h3>Productos</h3>
             <p>Contamos con productos de calidad, con precios competitivos en el mercado y hechos completamente a mano. </p>
           </div><!-- /.col-lg-4 -->
@@ -186,9 +186,9 @@
           <p>
             <i class="fa fa-envelope mr-3"></i>  venta@ebanistenialoslaureles.com</p>
           <p>
-            <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+            <i class="fa fa-phone mr-3"></i> + 506 8534 3588</p>
           <p>
-            <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            <i class="fa fa-print mr-3"></i> + 506 6429 0567</p>
         </div>
         <!-- Grid column -->
       </div>
