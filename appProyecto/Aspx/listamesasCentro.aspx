@@ -67,7 +67,8 @@
        <a href="#">
         <img src="../img/mesacentro/mesa1 - copia.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡250.000 </p>
         </div>
       </a>
     </div>
@@ -77,7 +78,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa2.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+         <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡100.000 </p>
         </div>
       </a>
     </div>
@@ -87,7 +89,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa3.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+      <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡100.000 </p>
         </div>
       </a>
     </div>
@@ -101,7 +104,8 @@
        <a href="#">
         <img src="../img/mesacentro/mesa4.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+           <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡75.000 </p>
         </div>
       </a>
     </div>
@@ -111,7 +115,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa5 - copia.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡75.000 </p>
         </div>
       </a>
     </div>
@@ -121,7 +126,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa6 - copia.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+       <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡75.000 </p>
         </div>
       </a>
     </div>
@@ -136,7 +142,8 @@
        <a href="#">
         <img src="../img/mesacentro/mesa7.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+         <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡750.000 </p>
         </div>
       </a>
     </div>
@@ -146,7 +153,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa8.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+           <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡75.000 </p>
         </div>
       </a>
     </div>
@@ -156,7 +164,8 @@
       <a href="#">
         <img src="../img/mesacentro/mesa9 - copia.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+         <h3>Mesa de centro en Cedro</h3>
+            <p>Precio: ₡75.000 </p>
         </div>
       </a>
     </div>
@@ -172,8 +181,7 @@
         <!-- Grid column -->
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto mt-7">
           <h3 class=" ">Ebanisteria los Laureles</h3>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <p>Un lugar confiable y eficiente para comprar todos los acabados en madera de su hogar, con la mejor calidad</p>
         </div>
       
         <!-- Grid column -->

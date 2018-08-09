@@ -72,7 +72,8 @@
        <a href="#">
         <img src="../img/closets/closet1.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Tipo Ropero(movible) en Cedro</h3>
+            <p>Precio: ₡400.000</p>
         </div>
       </a>
     </div>
@@ -82,7 +83,8 @@
       <a href="#">
         <img src="../img/closets/closet2.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+         <h3>Tipo Closet en Cedro</h3>
+            <p>Precio instalado: ₡700.000</p>
         </div>
       </a>
     </div>
@@ -92,7 +94,8 @@
       <a href="#">
         <img src="../img/closets/closet3.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Tipo closet en Cedro</h3>
+            <p>Precio instalado: ₡700.000</p>
         </div>
       </a>
     </div>
@@ -106,7 +109,8 @@
        <a href="#">
         <img src="../img/closets/closet4.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Tipo closet en Cedro</h3>
+            <p>Precio instalado: ₡1000.000</p>
         </div>
       </a>
     </div>
@@ -116,7 +120,8 @@
       <a href="#">
         <img src="../img/closets/closet5.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+           <h3>Tipo closet en Cedro</h3>
+            <p>Precio instalado: ₡1000.000</p>
         </div>
       </a>
     </div>
@@ -126,7 +131,8 @@
       <a href="#">
         <img src="../img/closets/closet6.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Tipo closet en Cedro</h3>
+            <p>Precio instalado: ₡1000.000</p>
         </div>
       </a>
     </div>
@@ -141,7 +147,8 @@
        <a href="#">
         <img src="../img/closets/closet7.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+         <h3>Tipo Ropero(movible) en Cedro</h3>
+            <p>Precio: ₡600.000</p>
         </div>
       </a>
     </div>
@@ -151,7 +158,8 @@
       <a href="#">
         <img src="../img/closets/closet8.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Tipo Ropero(movible) en Cedro</h3>
+            <p>Precio: ₡600.000</p>
         </div>
       </a>
     </div>
@@ -161,7 +169,8 @@
       <a href="#">
         <img src="../img/closets/closet9.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Tipo Ropero(movible) en Cedro</h3>
+            <p>Precio: ₡500.000</p>
         </div>
       </a>
     </div>
@@ -178,8 +187,7 @@
         <!-- Grid column -->
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto mt-7">
           <h3 class=" ">Ebanisteria los Laureles</h3>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+           <p>Un lugar confiable y eficiente para comprar todos los acabados en madera de su hogar, con la mejor calidad</p>
         </div>
       
         <!-- Grid column -->

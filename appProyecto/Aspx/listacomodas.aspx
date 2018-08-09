@@ -70,7 +70,8 @@
        <a href="#">
         <img src="../img/comodas/comoda1.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡200.000</p>
         </div>
       </a>
     </div>
@@ -80,7 +81,8 @@
       <a href="#">
         <img src="../img/comodas/comoda2.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡400.000</p>
         </div>
       </a>
     </div>
@@ -90,7 +92,8 @@
       <a href="#">
         <img src="../img/comodas/comoda3.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡300.000</p>
         </div>
       </a>
     </div>
@@ -104,7 +107,8 @@
        <a href="#">
         <img src="../img/comodas/comoda4.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡350.000</p>
         </div>
       </a>
     </div>
@@ -112,9 +116,10 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="../img/closets/closet5.jpg" alt="logo2" style="width:100%"/>
+        <img src="../img/comodas/comoda5.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡400.000</p>
         </div>
       </a>
     </div>
@@ -124,7 +129,8 @@
       <a href="#">
         <img src="../img/comodas/comoda6.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡400.000</p>
         </div>
       </a>
     </div>
@@ -139,7 +145,8 @@
        <a href="#">
         <img src="../img/comodas/comoda7.jpg" alt="Logo1" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡400.000</p>
         </div>
       </a>
     </div>
@@ -149,7 +156,8 @@
       <a href="#">
         <img src="../img/comodas/comoda8.jpg" alt="logo2" style="width:100%"/>
         <div class="caption">
-          <button type="button" class="btn btn-primary">Primary</button>
+          <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡300.000</p>
         </div>
       </a>
     </div>
@@ -159,7 +167,8 @@
       <a href="#">
         <img src="../img/comodas/comoda9.jpg" alt="logo3" style="width:100%"/>
         <div class="caption">
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h3>Comoda de Cedro</h3>
+            <p>Precio: ₡350.000</p>
         </div>
       </a>
     </div>
@@ -176,8 +185,7 @@
         <!-- Grid column -->
         <div class="col-md-7 col-lg-7 col-xl-7 mx-auto mt-7">
           <h3 class=" ">Ebanisteria los Laureles</h3>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+           <p>Un lugar confiable y eficiente para comprar todos los acabados en madera de su hogar, con la mejor calidad</p>
         </div>
       
         <!-- Grid column -->
