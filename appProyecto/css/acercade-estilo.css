@@ -12,3 +12,10 @@
 main{
     margin-bottom:200px;
 }
+#submenu{
+	border-style: dotted;
+	border-width: 1px;
+	border-color:#ce5f2d;
+	border-radius: 15px;
+	padding:1%;
+}

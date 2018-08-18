@@ -117,6 +117,9 @@
     <Content Include="css\producto-estilo.css" />
     <Content Include="css\acercade-estilo.css" />
     <Content Include="css\registrarse-Estilo.css" />
+    <Content Include="img\acercade1.JPG" />
+    <Content Include="img\acercade3.jpg" />
+    <Content Include="img\acercade4.jpg" />
     <Content Include="img\closets\closet1.jpg" />
     <Content Include="img\closets\closet2.jpg" />
     <Content Include="img\closets\closet3.jpg" />
@@ -161,6 +164,7 @@
     <Content Include="img\puertas\puerta7.jpg" />
     <Content Include="img\puertas\puerta8.jpg" />
     <Content Include="img\puertas\puerta9.jpg" />
+    <Content Include="img\acercade2.JPG" />
     <Content Include="img\rodapies\rodapie1.jpg" />
     <Content Include="img\rodapies\rodapie2.jpg" />
     <Content Include="img\rodapies\rodapie3.jpg" />
