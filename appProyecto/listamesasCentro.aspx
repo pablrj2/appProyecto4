@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listamesasCentro.aspx.cs" Inherits="appProyecto.Aspx.listasmesascentro" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listamesasCentro.aspx.cs" Inherits="appProyecto.listasmesascentro" %>
 
 <!DOCTYPE html>
 

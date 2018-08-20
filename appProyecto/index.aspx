@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="appProyecto.Aspx.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="appProyecto.index" %>
 
 <!DOCTYPE html>
 
@@ -9,16 +9,18 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="../scripts/bootstrap.min.js"></script>
     <link href="../css/Index-estilo.css" rel="stylesheet" />
 
 </head>
 <body>
     <form runat="server">
      <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="../index.aspx">Ebanistería los Laureles</a>
-    </div>
+  <div  class="container-fluid">
+      <div>
+          <a class="navbar-brand" href="../index.aspx">Ebanistería los Laureles</a>
+      </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="../index.aspx">Inicio</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Producto <span class="caret"></span></a>

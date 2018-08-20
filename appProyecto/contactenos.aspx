@@ -1,14 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contactenos.aspx.cs" Inherits="appProyecto.Aspx.contactenos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contactenos.aspx.cs" Inherits="appProyecto.contactenos" %>
 
 <!DOCTYPE html>
 
-<html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <title>Ebanisteria los Laureles</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
      <link href="../img/ebanisteria.jpeg" rel = "icon" type ="../img/ebanisteria.jpeg"/> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/contactenos-estilo.css" />
@@ -38,7 +39,7 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
-          <div class="dropdown-menu">      
+         <%-- <div class="dropdown-menu">      
                      
               <div class="form-group">
                 <label for="usr">Correo:</label>
@@ -52,7 +53,7 @@
               <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>   
             
             
-          </div>
+          </div>--%>
         </li>
       </ul>
        <ul class="nav navbar-nav navbar-right">
@@ -150,7 +151,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+      <hr/>
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->

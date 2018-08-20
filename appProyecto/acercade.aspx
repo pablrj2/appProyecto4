@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="acercade.aspx.cs" Inherits="appProyecto.Aspx.acercade" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="acercade.aspx.cs" Inherits="appProyecto.acercade" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -66,15 +66,15 @@
     <article>
            <p style="text-align: center;">
             
-            Somos una <strong>Empresa dinámica</strong> y con visión de futuro especializada en todo tipo de <strong>trabajos en madera.</strong> <br>
-            Contamos con una amplia <strong>experiencia</strong> y un personal altamente cualificado, ofreciendo la mejor calidad del mercado,<br> intentando siempre que los <strong>clientes</strong> se queden <strong>satisfechos</strong> con nuestra labor.
-            Nuestra <strong>Ebanisteríalos Laureles</strong> <br>es un negocio de tradición familiar, la cual ha pasado por generaciones de hombres trabajadores
-            los cuales<br> han sacado a sus familias adelante con el bello arte de trabajar la madera, estamos ubicados en <strong>Desamparados de Alajuela.</strong> <br>Desde que se creó nos hemos centrado en proporcionar soluciones eficientes de  ebanistería, tanto para empresas<br>
-            como para proyectos individuales. Desde la puesta en marcha de la empresa, Ebanistería los Laureles ha participado<br> en una gran variedad de proyectos, incluyendo de renovación y de nueva construcción.
-            Estamos involucrados regularmente<br> en proyectos pequeños y personales, lo que nos permite ofrecer servicios de ebanistería hecho a medida.
+            Somos una <strong>Empresa dinámica</strong> y con visión de futuro especializada en todo tipo de <strong>trabajos en madera.</strong> <br/>
+            Contamos con una amplia <strong>experiencia</strong> y un personal altamente cualificado, ofreciendo la mejor calidad del mercado,<br/> intentando siempre que los <strong>clientes</strong> se queden <strong>satisfechos</strong> con nuestra labor.
+            Nuestra <strong>Ebanisteríalos Laureles</strong> <br/>es un negocio de tradición familiar, la cual ha pasado por generaciones de hombres trabajadores
+            los cuales<br/> han sacado a sus familias adelante con el bello arte de trabajar la madera, estamos ubicados en <strong>Desamparados de Alajuela.</strong> <br/>Desde que se creó nos hemos centrado en proporcionar soluciones eficientes de  ebanistería, tanto para empresas<br/>
+            como para proyectos individuales. Desde la puesta en marcha de la empresa, Ebanistería los Laureles ha participado<br/> en una gran variedad de proyectos, incluyendo de renovación y de nueva construcción.
+            Estamos involucrados regularmente<br/> en proyectos pequeños y personales, lo que nos permite ofrecer servicios de ebanistería hecho a medida.
            </p>
     </article>
-         </aside><br>
+         </aside><br/>
          <figure>
             <img src="../img/acercade1.jpg" alt="ebanisteria" width="185" />
             <img src="../img/acercade2.jpg" alt="ebanisteria" width="185" />
@@ -83,9 +83,9 @@
             <img src="../img/acercade2.jpg" alt="ebanisteria" width="185" />
             <img src="../img/acercade3.jpg" alt="ebanisteria" width="185" />
              <img src="../img/acercade1.jpg" alt="ebanisteria" width="185" />
-        </figure><br>
+        </figure><br/>
          <h2  style="text-align: center;">Visión</h2>
-         <p style="text-align: center;">No queremos vivir en un mundo frívolo, donde la belleza sea solo eso, bella sin decir nada. Queremos decirte algo con nuestras piezas,<br> 
+         <p style="text-align: center;">No queremos vivir en un mundo frívolo, donde la belleza sea solo eso, bella sin decir nada. Queremos decirte algo con nuestras piezas,<br/> 
          transmitir emociones y sobre todo…Queremos hacerte soñar! Ven a conocer nuestro mundo lleno de color y pasión, ven a Ebanistería los Laureles.</p>
 
          <h2  style="text-align: center;">Mision</h2>

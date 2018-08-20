@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 
-namespace appProyecto.Aspx
+namespace appProyecto
 {
     public partial class registrarse : System.Web.UI.Page
     {
@@ -33,30 +33,30 @@ namespace appProyecto.Aspx
 
         }
 
-        protected void Button1_click(object sender, EventArgs e)
-        {
-            Registrar logica2 = null;
-            logica2 = logica.SeleccionarUsuarioPorId(correo.Value);
+        //protected void Button1_click(object sender, EventArgs e)
+        //{
+        //    Registrar logica2 = null;
+        //    logica2 = logica.SeleccionarUsuarioPorId(text1.Value);
 
-            if (logica == null)
-            {
-                lblError.Text = "Este Usuario no existe";
-            }
-            else
-            {
-                if (logica2.contraseña != contraseña.Value)
-                {
-                    lblError.Text = "Contraseña Incorrecta";
-                }
-                else
-                {
-                    Session["Usuario"] = logica.correo;
-                    Response.Redirect("registrarse.aspx");
-                }
-            }
+        //    if (logica == null)
+        //    {
+        //        lblError.Text = "Este Usuario no existe";
+        //    }
+        //    else
+        //    {
+        //        if (logica2.contraseña != contraseña.Value)
+        //        {
+        //            lblError.Text = "Contraseña Incorrecta";
+        //        }
+        //        else
+        //        {
+        //            Session["Usuario"] = logica.correo;
+        //            Response.Redirect("registrarse.aspx");
+        //        }
+        //    }
 
-        }
+        //}
 
-
+      
     }
 }

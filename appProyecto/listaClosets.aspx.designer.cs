@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace appProyecto.Aspx {
+namespace appProyecto {
     
     
     public partial class listaClosets {

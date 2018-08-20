@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaRodaPie.aspx.cs" Inherits="appProyecto.Aspx.listaRodaPie" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaRodaPie.aspx.cs" Inherits="appProyecto.listaRodaPie" %>
 
 <!DOCTYPE html>
 

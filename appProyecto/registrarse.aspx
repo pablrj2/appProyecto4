@@ -1,14 +1,16 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registrarse.aspx.cs" Inherits="appProyecto.Aspx.registrarse" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registrarse.aspx.cs" Inherits="appProyecto.registrarse" %>
 
 <!DOCTYPE html>
 
-<html>
+
+    
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <title>Ebanisteria los Laureles</title>
      <link href="../img/ebanisteria.jpeg" rel = "icon" type ="../img/ebanisteria.jpeg"/> 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
    <script src="../scripts/jquery-3.0.0.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <link href="../css/registrarse-estilo.css" rel="stylesheet" />
@@ -39,15 +41,16 @@
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar Sesion <span class="glyphicon glyphicon-log-in"></span></a>
           <div class="dropdown-menu">
                    
-              <div class="form-group">
+              <%--<div class="form-group">
                 <label for="usr">Correo:</label>
-                <input name="Text1" class="form-control" id="Text1" placeholder="Correo" type="email" runat="server" required="required"  />     
+                <input  class="form-control" id="text1" placeholder="Correo" type="email" runat="server" required="required"  />     
               </div>
               <div class="form-group">
-                <label for="pwd">Contraseña:</label>
-                <input name="Password1" class="form-control" id="Password1" placeholder="Contraseña" type="password" runat="server" required="required"  />
-              </div>
-                <asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>      
+                <input  class="form-control" id="password1" placeholder="Contraseña" type="password" runat="server" required="required"  />
+                  
+              </div>--%>
+             
+                <%--<asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" OnClick="Button1_click"/>    --%>  
                 <asp:Label ID="lblError" CssClass="color:red;" runat="server" Text=" "></asp:Label>    
            
             
@@ -92,9 +95,11 @@
                 </div>
                
                 
-                <asp:Button ID="btnRegistrar" runat="server" Text="Registrar"  OnClick="btnRegistrar_Click" />
+                <asp:Button  ID="btnRegistrar" runat="server" Text="Registrar"  OnClick="btnRegistrar_Click" />
                     <!--<input type='reset' value='Cancelar' />-->
-              
+               
+               
+               
             </fieldset>
         </div>
         
@@ -147,7 +152,7 @@
         <!-- Grid column -->
       </div>
       <!-- Footer links -->
-      <hr>
+      <hr/>
       <!-- Grid row -->
       <div class="row d-flex align-items-center">
         <!-- Grid column -->

@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace appProyecto.Aspx
+namespace appProyecto
 {
     public partial class contactenos : System.Web.UI.Page
     {
@@ -20,38 +20,38 @@ namespace appProyecto.Aspx
         {
             logica = new Registrar();
         }
-        protected void Button1_click(object sender, EventArgs e)
-        {
-            Registrar logica2 = null;
-            logica2 = logica.SeleccionarUsuarioPorId(correo.Value);
+        //protected void Button1_click(object sender, EventArgs e)
+        //{
+        //    Registrar logica2 = null;
+        //    logica2 = logica.SeleccionarUsuarioPorId(correo.Value);
 
-            if (logica == null)
-            {
-                lblError.Text = "Este Usuario no existe";
-            }
-            else
-            {
-                if (logica2.contraseña != contraseña.Value)
-                {
-                    lblError.Text = "Contraseña Incorrecta";
-                }
-                else
-                {
-                    Session["Usuario"] = logica.correo;
-                    Response.Redirect("contactenos.aspx");
+        //    if (logica == null)
+        //    {
+        //        lblError.Text = "Este Usuario no existe";
+        //    }
+        //    else
+        //    {
+        //        if (logica2.contraseña != contraseña.Value)
+        //        {
+        //            lblError.Text = "Contraseña Incorrecta";
+        //        }
+        //        else
+        //        {
+        //            Session["Usuario"] = logica.correo;
+        //            Response.Redirect("contactenos.aspx");
 
                    
-                }
-            }
+        //        }
+        //    }
 
-        }
+        //}
         protected void Button2_Click(object sender, EventArgs e)
         {
             try
             {
                 enviar_correo("smtp-mail.outlook.com", 587,
-                    "any.sanabria.h28@hotmail.com",
-                    "2810AnyelV", "Anyel y Pablo",
+                    "ebanisterialaureles@hotmail.com",
+                    "Laureles123", "Anyel y Pablo",
                     nombre2.Value,
                     correo2.Value,
                     mensaje2.Value,

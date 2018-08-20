@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaClosets.aspx.cs" Inherits="appProyecto.Aspx.listaClosets" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="listaClosets.aspx.cs" Inherits="appProyecto.listaClosets" %>
 
 <!DOCTYPE html>
 

@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace appProyecto.Aspx
+namespace appProyecto
 {
     public partial class listaRodaPie : System.Web.UI.Page
     {
